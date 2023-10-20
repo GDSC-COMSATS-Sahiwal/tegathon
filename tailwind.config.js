@@ -28,9 +28,6 @@ module.exports = {
       },
     },
     extend: {
-      fontFamily: {
-        satoshiVariable: ["var(--font-satoshi-variable)"],
-      },
       colors: {
         primary: "#FDD200",
         border: "hsl(var(--border))",

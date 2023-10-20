@@ -4,10 +4,34 @@ import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
-const satoshi_variable = localFont({
-  src: "../public/fonts/Satoshi-Variable.woff2",
-  variable: "--font-satoshi-variable",
-  display: "swap",
+const satoshi = localFont({
+  src: [
+    {
+      path: "../public/fonts/Satoshi/Satoshi-Light.woff2",
+      weight: "300",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/Satoshi/Satoshi-Regular.woff2",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/Satoshi/Satoshi-Medium.woff2",
+      weight: "500",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/Satoshi/Satoshi-Bold.woff2",
+      weight: "700",
+      style: "normal",
+    },
+    {
+      path: "../public/fonts/Satoshi/Satoshi-Black.woff2",
+      weight: "900",
+      style: "normal",
+    },
+  ],
 });
 
 export const metadata = {
@@ -18,9 +42,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${satoshi_variable.className} ${inter.className} ${satoshi_variable.variable}`}
-      >
+      <body className={`${satoshi.className} ${inter.className}`}>
         {children}
       </body>
     </html>
