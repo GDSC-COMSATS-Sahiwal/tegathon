@@ -7,9 +7,9 @@ import {
   Sponsers,
   Highlights,
   Faq,
-} from 'sections/index';
-import Nav from '@/components/Nav';
-import Footer from '@/components/Footer';
+} from "sections/index";
+import Nav from "@/components/Nav";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -21,7 +21,7 @@ export default function Home() {
       <section className="bg-green-500 padding">
         <About />
       </section>
-      <section className="bg-red-500 padding ">
+      <section className="bg-cover bg-center bg-[url('../public/images/schedule_bg.png')] padding ">
         <Schedule />
       </section>
       <section className="bg-yellow-500 padding ">
