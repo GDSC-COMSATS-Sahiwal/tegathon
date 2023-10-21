@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <main className="relative">
       <Nav />
-      <section className="bg-cover bg-center bg-[url('../public/hero/heroBg.webp')] object-cover padding">
+      <section className="bg-cover bg-center bg-[url('../public/hero/heroBg.webp')] object-cover">
         <Hero />
       </section>
       <section className="bg-cover bg-center bg-[url('../public/images/about_bg.png')] object-cover padding">
