@@ -35,7 +35,7 @@ const Hero = () => {
         </div>
         {/* Hero Countdown */}
         <div className="flex items-center justify-center">
-          <div className="p-4  rounded-2xl text-center relative -mb-7 backdrop-blur-md text-yellow-400 font-bold bg-black/50">
+          <div className="py-2 border border-yellow-400 px-6  rounded-3xl text-center relative md:-mb-24 md:-mr-10 backdrop-blur-md text-yellow-400 font-bold bg-black/50">
             <Clock hours={12} minutes={30} seconds={45} />
           </div>
         </div>
