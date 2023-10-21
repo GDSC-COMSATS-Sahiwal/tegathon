@@ -1,37 +1,19 @@
-import { Button } from '@/components/ui/button';
-
-import Link from 'next/link';
-import Image from 'next/image';
-import hamburger from '@/public/icons/hamburger.svg';
-
-import { navLinks } from '../constants';
+import MobileSidebar from '@/components/mobile-sidebar';
+import NavLinks from '@/components/NavLinks';
+import HomeButton from '@/components/HomeButton';
 
 const Nav = () => {
   return (
-    <header className=" padding-x py-8 absolute z-10 w-full">
-      <nav className="bg-black/30 rounded-2xl border-2 border-[#FDD200] p-2 flex justify-between items-center max-container">
-        <Link href="/">
-          <Button className="bg-[#FDD200] text-black hover:bg-yellow-500 hover:text-white px-10 py-6">
-            Home
-          </Button>
-        </Link>
-        <ul className="flex-1 flex justify-center items-center gap-16 max-lg:hidden text-white">
-          {navLinks.map((item) => (
-            <li key={item.label}>
-              <a
-                href={item.href}
-                className="font-montserrat leading-normal text-lg text-slate-gray"
-              >
-                {item.label}
-              </a>
-            </li>
-          ))}
-        </ul>
-        <div className="hidden max-lg:block">
-          <Image src={hamburger} alt="Hamburger" width={25} height={25} />
-        </div>
-      </nav>
-    </header>
+    <div className="flex items-center justify-center w-full sticky top-0 z-50">
+      <div className="w-full justify-end hidden sm:flex">
+        <NavLinks />
+      </div>
+
+      <div className="w-11/12 flex justify-between sm:hidden p-3 bg-black/25 bg-opacity-25 shadow-md backdrop-blur-md backdrop-filter border-opacity-25 border-[#FDD200] rounded-2xl border-2 items-center max-container absolute top-4 text-white">
+        <HomeButton />
+        <MobileSidebar />
+      </div>
+    </div>
   );
 };
 
