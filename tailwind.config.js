@@ -2,9 +2,9 @@
 module.exports = {
   darkMode: ['class'],
   content: [
-    './pages/**/*.{js,jsx}',
-    './components/**/*.{js,jsx}',
     './app/**/*.{js,jsx}',
+    './components/**/*.{js,jsx}',
+    './sections/**/*.{js,jsx}',
     './src/**/*.{js,jsx}',
   ],
   theme: {
@@ -85,6 +85,12 @@ module.exports = {
       screens: {
         wide: '1440px',
       },
+      backgroundSize: {
+        full: '100%',
+      },
+      // backgroundImage: {
+      //   'hero': "url('./public/hero/heroBg.webp')",
+      // }
     },
   },
   plugins: [require('tailwindcss-animate')],
