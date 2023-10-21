@@ -15,9 +15,9 @@ const Team = () => {
       className="w-full flex-row justify-center gap-10 max-container relative"
     >
       <div>
-        <h2 className="lg:text-[5.5rem] text-4xl ml-12 mb-16 font-black text-white">
+        <h1 className="lg:text-[5.5rem] text-4xl ml-12 mb-16 font-black text-white">
           Our Team
-        </h2>
+        </h1>
       </div>
       <Splide
         hasTrack={false}
