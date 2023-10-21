@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import HeroTimer from "./Clock";
-import { useTimer } from "react-timer-hook";
 import Image from "next/image";
 
 import tegathonLogo from "../public/hero/tegathonLogo2.webp";
