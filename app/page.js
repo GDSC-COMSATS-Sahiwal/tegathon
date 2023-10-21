@@ -18,7 +18,7 @@ export default function Home() {
       <section className="bg-blue-500 xl:padding-l xl:padding-r padding-b">
         <Hero />
       </section>
-      <section className="bg-green-500 padding">
+      <section className="bg-cover bg-center bg-[url('../public/images/about_bg.png')] padding ">
         <About />
       </section>
       <section className="bg-cover bg-center bg-[url('../public/images/schedule_bg.png')] padding ">
