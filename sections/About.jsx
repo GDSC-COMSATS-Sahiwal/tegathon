@@ -2,30 +2,55 @@ const About = () => {
   return (
     <section
       id="about"
-      className="text-white w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container"
+      className="text-white text-center w-full flex flex-col justify-center min-h-screen gap-10 max-container"
     >
-      {/* <h1 className="text-[2.25rem] md:text-[5rem] lg:text-8xl font-black">
-        What is Tegathon?
-      </h1>
-      <h4 className="text-1xl">
-        Tegathon is a unique, three-day event that brings together the worlds of
-        technology, gaming, and coding in an exhilarating fusion of innovation
-        and fun. We&apos;ve coined the term &quot;Tegathon&quot; by combining
-        &quot;Te&quot; form Tech, &quot;Ga&quot; form Gaming, and
-        &quot;Thon&quot; form Marathon, signifying our commitment to
-        marathon-like endurance and excitement.
-      </h4>
-      <div className="xl:mt-[30rem] font-bold md:font-black text-center">
-        <h1
-          style={{ WebkitTextStroke: "1px #FDD200" }}
-          className="text-[1.75rem] md:text-[3.5rem] lg:text-[5rem] xl:text-[6rem] uppercase text-transparent"
-        >
-          1 --- 2 --- 3
+      <div className="p-2 xl:padding ">
+        <h1 className="lg:text-8xl text-4xl font-black text-white mb-8">
+          What is Tegathon?
         </h1>
-        <h2 className="md:text-[2rem] lg:text-[2.5rem] xl:text-[3rem]">
-          Open-source Day Inter City Coding Competition Gaming Competition
-        </h2>
-      </div> */}
+        <p className="text-lg sm:text-2xl font-normal text-center ">
+          Tegathon is a unique, three-day event that brings together the worlds
+          of technology, gaming, and coding in an exhilarating fusion of
+          innovation and fun. We&apos;ve coined the term &quot;Tegathon&quot; by
+          combining &quot;Te&quot; form Tech, &quot;Ga&quot; form Gaming, and
+          &quot;Thon&quot; form Marathon, signifying our commitment to
+          marathon-like endurance and excitement.
+        </p>
+      </div>
+      <div className="flex xl:padding justify-evenly flex-col sm:flex-row">
+        <div className="text-center sm:text-left my-4">
+          <h1
+            style={{ WebkitTextStroke: '1px #FFFFFF' }}
+            className="lg:text-8xl text-4xl uppercase text-transparent font-bold md:font-black"
+          >
+            1
+          </h1>
+          <h3 className="text-2xl font-medium">Open-source Day</h3>
+          <p className="text-2xl font-normal">Date</p>
+        </div>
+        <div className="text-center my-4">
+          <h1
+            style={{ WebkitTextStroke: '1px #FFFFFF' }}
+            className="lg:text-8xl text-4xl uppercase text-transparent font-bold md:font-black"
+          >
+            2
+          </h1>
+          <h3 className="text-2xl font-medium">
+            Inter City Coding Competition
+          </h3>
+          <p className="text-2xl font-normal">Date</p>
+        </div>
+        <div className="text-center sm:text-right my-4">
+          <h1
+            style={{ WebkitTextStroke: '1px #FFFFFF' }}
+            className="lg:text-8xl text-4xl uppercase text-transparent font-bold md:font-black"
+          >
+            3
+          </h1>
+          <h3 className="text-2xl font-medium">Gaming Competition</h3>
+          <p className="text-2xl font-normal">Date</p>
+        </div>
+      </div>
     </section>
   );
 };
