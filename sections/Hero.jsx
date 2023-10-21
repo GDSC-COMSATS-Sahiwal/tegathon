@@ -2,23 +2,12 @@
 import React from "react";
 import Clock from "./Clock";
 import Image from "next/image";
-import heroBG from "../public/hero/heroBg.webp";
 import tegathonLogo from "../public/hero/tegathonLogo2.webp";
 
 const Hero = () => {
   return (
     // Hero Section
-    <section id="home" className="w-full -z-50 bg-black relative">
-      {/* Background Img */}
-      <div className="absolute -z-10 w-full h-full">
-        <Image
-          src={heroBG}
-          alt="hero"
-          className="w-full object-cover"
-          width={1000}
-          height={1000}
-        />
-      </div>
+    <section id="home" className="w-full relative">
       {/* Grid Container */}
       <div className="container mx-auto grid px-5 md:py-52 py-10 gap-5 md:grid-cols-2">
         {/* Hero img, text, and button */}
