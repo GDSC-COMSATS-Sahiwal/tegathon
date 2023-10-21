@@ -30,7 +30,7 @@ export default function Home() {
       <section className="bg-cover bg-center bg-[url('../public/images/partners_bg.png')] padding">
         <Partners />
       </section>
-      <section className="bg-green-500 padding ">
+      <section className="bg-cover bg-center bg-[url('../public/images/sponsors_bg.png')] padding ">
         <Sponsers />
       </section>
       <section className="bg-red-500 padding">
