@@ -3,14 +3,10 @@ import React from "react";
 import HeroTimer from "./Clock";
 import { useTimer } from "react-timer-hook";
 import Image from "next/image";
-import { usePathname } from "next/navigation";
 
 import tegathonLogo from "../public/hero/tegathonLogo2.webp";
 
 const Hero = () => {
-  const pathname = usePathname();
-  console.log(pathname);
-
   const seconds = 86300;
   const timeStamp = new Date(Date.now() + seconds * 1000);
   return (
