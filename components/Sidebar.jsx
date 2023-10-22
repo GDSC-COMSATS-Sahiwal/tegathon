@@ -1,19 +1,10 @@
 'use client';
 import { navLinks } from '../constants';
 import Link from 'next/link';
-import { Montserrat } from 'next/font/google';
-import { usePathname } from 'next/navigation';
-
-import { cn } from '@/lib/utils';
-
-const montserrat = Montserrat({
-  weight: '600',
-  subsets: ['latin'],
-});
 
 const Sidebar = () => {
   return (
-    <div className="space-y-4 py-4 flex flex-col h-screen text-[#fffffe] bg-black/25 bg-opacity-25 shadow-md backdrop-blur-md backdrop-filter border-opacity-25 border-[#FDD200] border-2">
+    <div className="space-y-4 py-4 flex flex-col h-screen text-[#fffffe] glass-container">
       <div className="px-3 py-2 flex-1">
         <div className="space-y-1">
           {navLinks.map((navLink) => (

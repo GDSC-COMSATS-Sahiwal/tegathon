@@ -3,11 +3,13 @@ import { Button } from '@/components/ui/button';
 
 const HomeButton = () => {
   return (
-    <Link href="/">
-      <Button className="bg-[#FDD200] text-white sm:text-black hover:bg-yellow-500 hover:text-white px-10 py-6 font-bold">
-        Home
-      </Button>
-    </Link>
+    <>
+      <Link href="/">
+        <Button className="bg-[#FDD200] text-[#333333] text-base font-bold hover:bg-yellow-500 hover:text-white px-12 py-6 rounded-2xl">
+          Home
+        </Button>
+      </Link>
+    </>
   );
 };
 

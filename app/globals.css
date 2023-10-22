@@ -78,6 +78,14 @@
     max-width: 1440px;
     margin: 0 auto;
   }
+
+  .section-title {
+    @apply lg:text-8xl text-4xl font-black text-white mb-8;
+  }
+
+  .glass-container {
+    @apply bg-black/25 bg-opacity-25 shadow-md backdrop-blur-md backdrop-filter  border-[#FDD200] border;
+  }
 }
 
 @layer utilities {
@@ -108,4 +116,19 @@
   .padding-b {
     @apply sm:pb-24 pb-12;
   }
+}
+
+/* Define the keyframes animation */
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Apply the animation to the scrolling-text class */
+.scrolling-text {
+  animation: scroll 20s linear infinite;
 }

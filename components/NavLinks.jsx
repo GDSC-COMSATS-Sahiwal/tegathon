@@ -5,9 +5,9 @@ import { Button } from './ui/button';
 const NavLinks = () => {
   return (
     <header className="padding-x py-8 absolute z-10 w-full top-0">
-      <nav className="bg-black/25 bg-opacity-25 shadow-md backdrop-blur-md backdrop-filter border-opacity-25 border-[#FDD200] rounded-2xl border-2 p-2 flex justify-between  items-center max-container">
+      <nav className="glass-container rounded-3xl p-2 flex justify-between items-center max-container">
         <Link href="/">
-          <Button className="bg-[#FDD200] text-black hover:bg-yellow-500 hover:text-white px-10 py-6">
+          <Button className="bg-[#FDD200] text-[#333333] text-base font-bold hover:bg-yellow-500 hover:text-white px-12 py-6 rounded-2xl">
             Home
           </Button>
         </Link>

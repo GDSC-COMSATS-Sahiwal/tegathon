@@ -15,9 +15,7 @@ const Team = () => {
       className="w-full flex-row justify-center gap-10 max-container relative"
     >
       <div>
-        <h1 className="lg:text-[5.5rem] text-4xl ml-12 mb-16 font-black text-white">
-          Our Team
-        </h1>
+        <h1 className="section-title ml-12">Our Team</h1>
       </div>
       <Splide
         hasTrack={false}
@@ -44,7 +42,7 @@ const Team = () => {
             <SplideSlide key={index}>
               <div
                 className="
-              flex flex-col gap-4 p-5 bg-black/25 bg-opacity-25 shadow-md backdrop-blur-md backdrop-filter border border-opacity-25 border-[#FDD200] rounded-3xl"
+              flex flex-col gap-4 p-5 glass-container rounded-3xl"
               >
                 <Image
                   src={member.imageUrl}
@@ -53,7 +51,7 @@ const Team = () => {
                   height={280}
                   className="rounded-3xl border border-[#FDD200]"
                 />
-                <h3 className="text-3xl font-black text-[#FDD200]">
+                <h3 className="md:text-4xl text-3xl font-bold sm:font-black text-[#FDD200]">
                   {member.name}
                 </h3>
                 <p className="text-white">{member.description}</p>
@@ -62,7 +60,7 @@ const Team = () => {
           ))}
         </SplideTrack>
 
-        <div className="splide__arrows absolute bottom-8 right-16 md:top-[-140%] md:bottom[140%] md:right-24">
+        <div className="splide__arrows absolute bottom-8 right-16 md:top-[-130%] md:bottom[130%] md:right-24">
           <button className="splide__arrow splide__arrow--prev">
             <FontAwesomeIcon icon={faArrowLeft} />
           </button>

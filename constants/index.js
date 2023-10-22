@@ -10,59 +10,59 @@ export const navLinks = [
 
 export const teamMembers = [
   {
-    name: 'Daniyal Ahmad',
+    name: 'Nabeel Ahmad',
     description: 'Designation',
-    imageUrl: '/images/Ak1.png',
+    imageUrl: '/sections/team/Ak1.png',
   },
   {
     name: 'Nabeel Ahmad',
     description: 'Designation',
-    imageUrl: '/images/pic.jpg',
+    imageUrl: '/sections/team/pic.jpg',
   },
   {
     name: 'Arslan Khalid',
     description: 'Designation',
-    imageUrl: '/images/Ak1.png',
+    imageUrl: '/sections/team/Ak1.png',
   },
   {
-    name: 'Name 4',
+    name: 'Nabeel Ahmad',
     description: 'Designation',
-    imageUrl: '/images/pic.jpg',
+    imageUrl: '/sections/team/pic.jpg',
   },
   {
-    name: 'Name 5',
+    name: 'Nabeel Ahmad',
     description: 'Designation',
-    imageUrl: '/images/Ak1.png',
+    imageUrl: '/sections/team/Ak1.png',
   },
   {
-    name: 'Name 6',
+    name: 'Daniyal Ahmad',
     description: 'Designation',
-    imageUrl: '/images/pic.jpg',
+    imageUrl: '/sections/team/pic.jpg',
   },
   {
-    name: 'Name 7',
+    name: 'Arslan Khalid',
     description: 'Designation',
-    imageUrl: '/images/Ak1.png',
+    imageUrl: '/sections/team/Ak1.png',
   },
   {
-    name: 'Name 8',
+    name: 'Nabeel Qasim',
     description: 'Designation',
-    imageUrl: '/images/pic.jpg',
+    imageUrl: '/sections/team/pic.jpg',
   },
   {
-    name: 'Name 9',
+    name: 'Daniyal Ahmad',
     description: 'Designation',
-    imageUrl: '/images/Ak1.png',
+    imageUrl: '/sections/team/Ak1.png',
   },
   {
-    name: 'Name 10',
+    name: 'Nabeel Ahmad',
     description: 'Designation',
-    imageUrl: '/images/pic.jpg',
+    imageUrl: '/sections/team/pic.jpg',
   },
   {
-    name: 'Name 11',
+    name: 'Nabeel Talha',
     description: 'Designation',
-    imageUrl: '/images/Ak1.png',
+    imageUrl: '/sections/team/Ak1.png',
   },
 
   // Add more team members as needed
