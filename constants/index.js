@@ -1,3 +1,70 @@
+////////// Teams section Images imports //////////
+
+import Ak1 from "../public/images/Ak1.png";
+import pic from "../public/images/pic.jpg";
+
+/////////////////////////////////////////////////
+
+export const teamMembers = [
+  {
+    name: "Daniyal Ahmad",
+    description: "Designation",
+    imageUrl: Ak1,
+  },
+  {
+    name: "Nabeel Ahmad",
+    description: "Designation",
+    imageUrl: pic,
+  },
+  {
+    name: "Arslan Khalid",
+    description: "Designation",
+    imageUrl: Ak1,
+  },
+  {
+    name: "Name 4",
+    description: "Designation",
+    imageUrl: pic,
+  },
+  {
+    name: "Name 5",
+    description: "Designation",
+    imageUrl: Ak1,
+  },
+  {
+    name: "Name 6",
+    description: "Designation",
+    imageUrl: pic,
+  },
+  {
+    name: "Name 7",
+    description: "Designation",
+    imageUrl: Ak1,
+  },
+  {
+    name: "Name 8",
+    description: "Designation",
+    imageUrl: pic,
+  },
+  {
+    name: "Name 9",
+    description: "Designation",
+    imageUrl: Ak1,
+  },
+  {
+    name: "Name 10",
+    description: "Designation",
+    imageUrl: pic,
+  },
+  {
+    name: "Name 11",
+    description: "Designation",
+    imageUrl: Ak1,
+  },
+
+  // Add more team members as needed
+];
+
 export const navLinks = [
   { href: "#about", label: "About" },
   { href: "#schedule", label: "Event Schedule" },
@@ -6,66 +73,6 @@ export const navLinks = [
   { href: "#sponsers", label: "Sponsers" },
   { href: "#highlights", label: "Last Year Highlights" },
   { href: "#faq", label: "FAQs" },
-];
-
-export const teamMembers = [
-  {
-    name: "Daniyal Ahmad",
-    description: "Designation",
-    imageUrl: "../public/images/Ak1.png",
-  },
-  {
-    name: "Nabeel Ahmad",
-    description: "Designation",
-    imageUrl: "../public/images/pic.jpg",
-  },
-  {
-    name: "Arslan Khalid",
-    description: "Designation",
-    imageUrl: "../public/images/Ak1.png",
-  },
-  {
-    name: "Name 4",
-    description: "Designation",
-    imageUrl: "../public/images/pic.jpg",
-  },
-  {
-    name: "Name 5",
-    description: "Designation",
-    imageUrl: "../public/images/Ak1.png",
-  },
-  {
-    name: "Name 6",
-    description: "Designation",
-    imageUrl: "../public/images/pic.jpg",
-  },
-  {
-    name: "Name 7",
-    description: "Designation",
-    imageUrl: "../public/images/Ak1.png",
-  },
-  {
-    name: "Name 8",
-    description: "Designation",
-    imageUrl: "../public/images/pic.jpg",
-  },
-  {
-    name: "Name 9",
-    description: "Designation",
-    imageUrl: "../public/images/Ak1.png",
-  },
-  {
-    name: "Name 10",
-    description: "Designation",
-    imageUrl: "../public/images/pic.jpg",
-  },
-  {
-    name: "Name 11",
-    description: "Designation",
-    imageUrl: "../public/images/Ak1.png",
-  },
-
-  // Add more team members as needed
 ];
 
 export const eventSchedule = [
