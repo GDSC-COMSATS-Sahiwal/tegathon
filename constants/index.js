@@ -1,12 +1,9 @@
-export const navLinks = [
-  { href: '#about', label: 'About' },
-  { href: '#schedule', label: 'Event Schedule' },
-  { href: '#team', label: 'Team' },
-  { href: '#partners', label: 'Partners' },
-  { href: '#sponsers', label: 'Sponsers' },
-  { href: '#highlights', label: 'Last Year Highlights' },
-  { href: '#faq', label: 'FAQs' },
-];
+////////// Teams section Images imports //////////
+
+import Ak1 from '../public/images/Ak1.png';
+import pic from '../public/images/pic.jpg';
+
+/////////////////////////////////////////////////
 
 export const teamMembers = [
   {
@@ -66,6 +63,16 @@ export const teamMembers = [
   },
 
   // Add more team members as needed
+];
+
+export const navLinks = [
+  { href: '#about', label: 'About' },
+  { href: '#schedule', label: 'Event Schedule' },
+  { href: '#team', label: 'Team' },
+  { href: '#partners', label: 'Partners' },
+  { href: '#sponsers', label: 'Sponsers' },
+  { href: '#highlights', label: 'Last Year Highlights' },
+  { href: '#faq', label: 'FAQs' },
 ];
 
 export const eventSchedule = [

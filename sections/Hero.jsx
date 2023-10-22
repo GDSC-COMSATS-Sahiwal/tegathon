@@ -17,6 +17,7 @@ const Hero = () => {
           <div className="md:space-y-12 space-y-4">
             <div className="flex w-full items-center justify-center">
               <Image
+                priority={true}
                 src={tegathonLogo}
                 alt="tegathon logo"
                 width={800}
