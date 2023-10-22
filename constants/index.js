@@ -1,10 +1,3 @@
-////////// Teams section Images imports //////////
-
-import Ak1 from '../public/images/Ak1.png';
-import pic from '../public/images/pic.jpg';
-
-/////////////////////////////////////////////////
-
 export const teamMembers = [
   {
     name: 'Nabeel Ahmad',
