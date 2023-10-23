@@ -18,37 +18,35 @@ const About = () => {
       <div className="flex xl:padding justify-evenly flex-col sm:flex-row items-center">
         <div className="text-center sm:text-left my-4">
           <h1
-            style={{ WebkitTextStroke: '1px #FFFFFF' }}
+            style={{ WebkitTextStroke: "1px #FFFFFF" }}
             className="lg:text-8xl text-4xl uppercase text-transparent font-bold md:font-black"
           >
             1
           </h1>
           <h3 className="text-2xl font-medium">Open-source Day</h3>
-          <p className="text-2xl font-normal">Date</p>
+          <p className="text-2xl font-normal"></p>
         </div>
         <hr className="border border-white w-24" />
         <div className="text-center my-4">
           <h1
-            style={{ WebkitTextStroke: '1px #FFFFFF' }}
+            style={{ WebkitTextStroke: "1px #FFFFFF" }}
             className="lg:text-8xl text-4xl uppercase text-transparent font-bold md:font-black"
           >
             2
           </h1>
-          <h3 className="text-2xl font-medium">
-            Inter City Coding Competition
-          </h3>
-          <p className="text-2xl font-normal">Date</p>
+          <h3 className="text-2xl font-medium">Coding Competition</h3>
+          <p className="text-2xl font-normal"></p>
         </div>
         <hr className="border border-white w-24" />
         <div className="text-center sm:text-right my-4">
           <h1
-            style={{ WebkitTextStroke: '1px #FFFFFF' }}
+            style={{ WebkitTextStroke: "1px #FFFFFF" }}
             className="lg:text-8xl text-4xl uppercase text-transparent font-bold md:font-black"
           >
             3
           </h1>
-          <h3 className="text-2xl font-medium">Gaming Competition</h3>
-          <p className="text-2xl font-normal">Date</p>
+          <h3 className="text-2xl font-medium">Tekken 7 Gaming Competition</h3>
+          <p className="text-2xl font-normal"></p>
         </div>
       </div>
     </section>
