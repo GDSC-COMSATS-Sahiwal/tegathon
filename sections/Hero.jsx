@@ -1,8 +1,8 @@
-'use client';
+"use client";
 
-import HeroTimer from '@/components/Clock';
-import tegathonLogo from '/public/sections/hero/logo.png';
-import Image from 'next/image';
+import HeroTimer from "@/components/Clock";
+import tegathonLogo from "/public/sections/hero/logo.png";
+import Image from "next/image";
 
 const Hero = () => {
   const seconds = 86300;
@@ -47,7 +47,7 @@ const Hero = () => {
       </div>
       {/* news line animation  */}
       <div className="absolute bottom-0 right-0 py-3 md:py-4 w-full overflow-hidden bg-gradient-to-r from-yellow-500 via-yellow-600 to-red-600">
-        <p class="text-lg md:text-xl  text-black font-normal scrolling-text whitespace-nowrap">
+        <p className="text-lg md:text-xl  text-black font-normal scrolling-text whitespace-nowrap">
           Tegathon is a unique, three-day event that brings together the worlds
           of technology, gaming, and coding in an exhilarating fusion of
           innovation and fun. We've coined the term "Tegathon" by combining "Te"
