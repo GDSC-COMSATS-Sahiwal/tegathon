@@ -6,8 +6,11 @@ import {
   Partners,
   Highlights,
   Sponsers,
+
 } from "sections/index";
 import Nav from "@/components/Nav";
+import Footer from '@/components/Footer';
+
 
 export default function Home() {
   return (
@@ -34,6 +37,7 @@ export default function Home() {
       <section className="bg-cover bg-center bg-[url('../public/sections/highlights/bg.jpg')] padding">
         <Highlights />
       </section>
+      <Footer />
     </main>
   );
 }
