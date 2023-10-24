@@ -1,12 +1,12 @@
-'use client';
+"use client";
 
-import { Splide, SplideSlide, SplideTrack } from '@splidejs/react-splide';
-import '@splidejs/react-splide/css';
+import { Splide, SplideSlide, SplideTrack } from "@splidejs/react-splide";
+import "@splidejs/react-splide/css";
 
-import Image from 'next/image';
-import { teamMembers } from '../constants';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import Image from "next/image";
+import { teamMembers } from "../constants";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 const Team = () => {
   return (
@@ -21,14 +21,17 @@ const Team = () => {
         hasTrack={false}
         aria-label="Our Team"
         options={{
-          width: '100%',
-          gap: '2rem',
+          width: "100%",
+          gap: "2rem",
           pagination: false,
           perPage: 4,
-          type: 'loop',
+          type: "loop",
           autoplay: true,
           breakpoints: {
-            640: {
+            1024: {
+              perPage: 3,
+            },
+            768: {
               perPage: 2,
             },
             480: {
@@ -60,12 +63,39 @@ const Team = () => {
           ))}
         </SplideTrack>
 
-        <div className="splide__arrows absolute bottom-8 right-16 md:top-[-130%] md:bottom[130%] md:right-24">
-          <button className="splide__arrow splide__arrow--prev">
-            <FontAwesomeIcon icon={faArrowLeft} />
+        <div className="splide__arrows absolute bottom-[2.15rem] right-20 md:top-[-130%] md:bottom[130%] md:right-24">
+          <button
+            style={{
+              border: "1px solid #FDD200",
+              borderRadius: "18px",
+              background: "rgba(0, 0, 0, 0.50);",
+              backdropFilter: "blur(50px);",
+              padding: "1.5rem",
+              opacity: "1",
+              width: "24px",
+            }}
+            className="splide__arrow splide__arrow--prev"
+          >
+            <FontAwesomeIcon icon={faArrowLeft} color="#FDD200" />
           </button>
-          <button className="splide__arrow splide__arrow--next">
-            <FontAwesomeIcon icon={faArrowRight} rotation={180} />
+          <button
+            style={{
+              border: "1px solid #FDD200",
+              borderRadius: "18px",
+              background: "rgba(0, 0, 0, 0.50);",
+              backdropFilter: "blur(50px);",
+              padding: "1.5rem",
+              opacity: "1",
+              width: "24px",
+              marginRight: "-8px",
+            }}
+            className="splide__arrow splide__arrow--next"
+          >
+            <FontAwesomeIcon
+              icon={faArrowRight}
+              rotation={180}
+              color="#FDD200"
+            />
           </button>
         </div>
       </Splide>
