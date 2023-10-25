@@ -4,7 +4,7 @@ import Image from "next/image";
 import { Splide, SplideSlide, SplideTrack } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 
-import { highlights } from "../constants";
+import { highlights } from "../constants/highlights.js";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
@@ -21,9 +21,8 @@ const Highlights = () => {
         hasTrack={false}
         aria-label="Last Year Highlights"
         options={{
+          autoWidth: true,
           fixedHeight: "400px",
-          cover: true,
-          width: "100%",
           gap: "2rem",
           pagination: false,
           perPage: 2,
@@ -35,23 +34,22 @@ const Highlights = () => {
               fixedHeight: "250px",
             },
             480: {
-              fixedHeight: "200px",
+              fixedHeight: "170px",
               perPage: 1,
             },
           },
         }}
       >
         <SplideTrack>
-          {highlights.map((slide) => (
+          {highlights.map((slide, index) => (
             <SplideSlide
-              key={slide.imageUrl}
+              key={index}
               className="flex flex-col glass-container gap-4 rounded-3xl"
             >
               <Image
                 src={slide.imageUrl}
                 alt={slide.alt}
-                fill={true}
-                className="aspect-ratio object-contain rounded-3xl "
+                className="rounded-3xl w-auto h-full object-cover"
               />
             </SplideSlide>
           ))}
