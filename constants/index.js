@@ -58,33 +58,6 @@ export const teamMembers = [
   // Add more team members as needed
 ];
 
-export const highlights = [
-  {
-    imageUrl: "/sections/highlights/slides/slide_02.jpg",
-    alt: "event highlights",
-  },
-  {
-    imageUrl: "/sections/highlights/slides/slide_03.jpg",
-    alt: "event highlights",
-  },
-  {
-    imageUrl: "/sections/highlights/slides/slide_01.jpg",
-    alt: "event highlights",
-  },
-  {
-    imageUrl: "/sections/highlights/slides/slide_04.jpg",
-    alt: "event highlights",
-  },
-  {
-    imageUrl: "/sections/highlights/slides/slide_05.jpg",
-    alt: "event highlights",
-  },
-  {
-    imageUrl: "/sections/highlights/slides/slide_06.jpg",
-    alt: "event highlights",
-  },
-];
-
 export const navLinks = [
   { href: "#about", label: "About" },
   { href: "#schedule", label: "Event Schedule" },
