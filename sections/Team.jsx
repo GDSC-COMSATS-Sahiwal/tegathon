@@ -87,7 +87,7 @@ const Team = () => {
               padding: "1.5rem",
               opacity: "1",
               width: "24px",
-              marginRight: "-8px",
+              marginRight: "-12px",
             }}
             className="splide__arrow splide__arrow--next"
           >

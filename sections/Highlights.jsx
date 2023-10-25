@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { Splide, SplideSlide, SplideTrack } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 
@@ -46,9 +47,10 @@ const Highlights = () => {
               key={slide.imageUrl}
               className="flex flex-col glass-container gap-4 rounded-3xl"
             >
-              <img
+              <Image
                 src={slide.imageUrl}
                 alt={slide.alt}
+                fill={true}
                 className="aspect-ratio object-contain rounded-3xl "
               />
             </SplideSlide>
@@ -65,6 +67,7 @@ const Highlights = () => {
               padding: "1.5rem",
               opacity: "1",
               width: "24px",
+              marginRight: "-12px",
             }}
             className="splide__arrow splide__arrow--next"
           >
