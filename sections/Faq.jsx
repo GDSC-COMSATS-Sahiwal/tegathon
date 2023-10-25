@@ -4,7 +4,7 @@ const Faqs = () => {
       id="faq"
       className="w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container"
     >
-      Faqs
+      <h1 className="section-title">FAQs</h1>
     </section>
   );
 };
