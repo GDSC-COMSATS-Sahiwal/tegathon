@@ -164,3 +164,26 @@ export const eventSchedule = [
     ],
   },
 ];
+
+export const faqs = [
+  {
+    summary: "How do I register for Tegathon?",
+    details:
+      "Registration details will be available on our website soon, Keep an eye out for updates.",
+  },
+  {
+    summary: "Are there any age restrictions for participants?",
+    details:
+      "Tegathon is open to participants of all ages, However, some coding and gaming challenges may have age or skill level requirements.",
+  },
+  {
+    summary: "What are the prizes for the competitions?",
+    details:
+      "We have exciting prizes for top performers, including cash rewards, tech gadgets, and gaming gear. Specific prizes will be announced closer to the event.",
+  },
+  {
+    summary: "How can I become a sponsor or partner for Tegathon?",
+    details:
+      "If you're interested in supporting Tegathon, please contact our team via email or phone. We'd love to discuss potential collaboration.",
+  },
+];
