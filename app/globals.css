@@ -132,3 +132,67 @@
 .scrolling-text {
   animation: scroll 20s linear infinite;
 }
+
+/* FAQ section styles START */
+
+#faq details {
+  border: 1px solid #fdd200;
+  border-radius: 24px;
+  backdrop-filter: blur(40px);
+  background-color: rgb(0 0 0 / 0.5);
+  box-sizing: border-box;
+  transition: max-height 400ms ease-out;
+
+  max-height: 4rem;
+  overflow: hidden;
+}
+
+#faq summary {
+  color: #fdd200;
+  font-weight: 700;
+  display: block;
+}
+
+#faq input {
+  display: none;
+}
+
+#faq label {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  height: 4rem;
+}
+
+#faq label:hover {
+  cursor: pointer;
+}
+
+#faq label::before {
+  content: ">";
+  font-size: 1.5rem;
+  font-weight: 400;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
+  transition: rotate 200ms 400ms ease-out;
+}
+
+#faq div.content {
+  padding: 0.5rem 1rem 1rem 4.25rem;
+  color: white;
+  text-wrap: balance;
+}
+
+#faq input:checked + details {
+  max-height: 800px;
+}
+
+#faq input:checked + details label::before {
+  rotate: 90deg;
+  transition: rotate 200ms ease-out;
+}
+
+/* FAQ section styles END */
