@@ -6,7 +6,7 @@ import "@splidejs/react-splide/css";
 import Image from "next/image";
 import { teamMembers } from "../constants";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 const Team = () => {
   return (
@@ -21,6 +21,7 @@ const Team = () => {
         hasTrack={false}
         aria-label="Our Team"
         options={{
+          perMove: "1",
           width: "100%",
           gap: "2rem",
           pagination: false,
@@ -48,11 +49,15 @@ const Team = () => {
               flex flex-col gap-4 p-5 glass-container rounded-3xl"
               >
                 <Image
-                  src={member.imageUrl}
+                  src={
+                    member.imageUrl
+                      ? member.imageUrl
+                      : "/sections/team/placeholder.jpg"
+                  }
                   alt={member.name}
                   width={280}
                   height={280}
-                  className="rounded-3xl border border-[#FDD200]"
+                  className="rounded-3xl border border-[#FDD200] h-[280px] w-auto object-cover object-top"
                 />
                 <h3 className="md:text-4xl text-3xl font-bold sm:font-black text-[#FDD200]">
                   {member.name}
@@ -78,6 +83,7 @@ const Team = () => {
           >
             <FontAwesomeIcon icon={faArrowLeft} color="#FDD200" />
           </button>
+
           <button
             style={{
               border: "1px solid #FDD200",
@@ -91,11 +97,7 @@ const Team = () => {
             }}
             className="splide__arrow splide__arrow--next"
           >
-            <FontAwesomeIcon
-              icon={faArrowRight}
-              rotation={180}
-              color="#FDD200"
-            />
+            <FontAwesomeIcon icon={faArrowLeft} color="#FDD200" />
           </button>
         </div>
       </Splide>
