@@ -36,7 +36,7 @@ export default function Home() {
       <section className="bg-cover bg-center bg-[url('../public/sections/highlights/bg.jpg')] padding">
         <Highlights />
       </section>
-      <section className="bg-cover bg-center bg-[url('../public/sections/faq/bg.jpg')] padding">
+      <section className="bg-cover bg-center bg-[url('../public/sections/faq/bg.jpg')] padding-y px-2 sm:px-16">
         <Faq />
       </section>
       <Footer />
