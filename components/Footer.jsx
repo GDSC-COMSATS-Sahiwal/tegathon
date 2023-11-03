@@ -1,8 +1,10 @@
 import FooterLogo from "../public/sections/footer/footer-logo.webp";
 import Image from "next/image";
 import Link from "next/link";
-import { FiLinkedin, FiInstagram, FiFacebook } from "react-icons/fi";
-import { RiTwitterXLine } from "react-icons/ri";
+import { FiLinkedin, FiInstagram } from "react-icons/fi";
+import { FaWhatsapp } from "react-icons/fa";
+
+// import { RiTwitterXLine } from "react-icons/ri";
 import { ImHeart } from "react-icons/im";
 
 const Footer = () => {
@@ -26,17 +28,26 @@ const Footer = () => {
             <div className="flex items-center md:items-end gap-2 flex-col">
               <p>Follow Us:</p>
               <div className="flex text-lg items-center gap-4">
-                <Link href="">
+                <Link
+                  target="_blank"
+                  href="https://www.linkedin.com/company/gdsc-comsats-sahiwal/"
+                >
                   <FiLinkedin />
                 </Link>
-                <Link href="">
+                <Link
+                  target="_blank"
+                  href="https://www.instagram.com/gdsccuiswl/"
+                >
                   <FiInstagram />
                 </Link>
-                <Link href="">
+                {/* <Link href="">
                   <RiTwitterXLine />
-                </Link>
-                <Link href="">
-                  <FiFacebook />
+                </Link> */}
+                <Link
+                  target="_blank"
+                  href="https://chat.whatsapp.com/DUS1YV1lmqbGRZTkFJYOBS"
+                >
+                  <FaWhatsapp />
                 </Link>
               </div>
             </div>

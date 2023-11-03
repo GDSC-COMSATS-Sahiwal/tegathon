@@ -1,58 +1,23 @@
 export const teamMembers = [
   {
-    name: "Nabeel Ahmad",
-    description: "Designation",
-    imageUrl: "/sections/team/Ak1.png",
-  },
-  {
-    name: "Nabeel Ahmad",
-    description: "Designation",
-    imageUrl: "/sections/team/pic.jpg",
-  },
-  {
     name: "Arslan Khalid",
-    description: "Designation",
-    imageUrl: "/sections/team/Ak1.png",
+    description: "Co-Lead",
+    imageUrl: "/sections/team/arslan_01.jpg",
   },
   {
-    name: "Nabeel Ahmad",
-    description: "Designation",
-    imageUrl: "/sections/team/pic.jpg",
+    name: "Ahsan Raza",
+    description: "Web Dev Lead",
+    imageUrl: "",
   },
   {
-    name: "Nabeel Ahmad",
-    description: "Designation",
-    imageUrl: "/sections/team/Ak1.png",
+    name: "Daniyal Ahmad Khan",
+    description: "Content Writing Lead",
+    imageUrl: "/sections/team/daniyal_01.jpg",
   },
   {
-    name: "Daniyal Ahmad",
-    description: "Designation",
-    imageUrl: "/sections/team/pic.jpg",
-  },
-  {
-    name: "Arslan Khalid",
-    description: "Designation",
-    imageUrl: "/sections/team/Ak1.png",
-  },
-  {
-    name: "Nabeel Qasim",
-    description: "Designation",
-    imageUrl: "/sections/team/pic.jpg",
-  },
-  {
-    name: "Daniyal Ahmad",
-    description: "Designation",
-    imageUrl: "/sections/team/Ak1.png",
-  },
-  {
-    name: "Nabeel Ahmad",
-    description: "Designation",
-    imageUrl: "/sections/team/pic.jpg",
-  },
-  {
-    name: "Nabeel Talha",
-    description: "Designation",
-    imageUrl: "/sections/team/Ak1.png",
+    name: "Muhammad Ahmad ",
+    description: "Event Management Lead",
+    imageUrl: "/sections/team/ahmad_01.jpg",
   },
 
   // Add more team members as needed

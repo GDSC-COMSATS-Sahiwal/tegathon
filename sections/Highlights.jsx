@@ -21,6 +21,7 @@ const Highlights = () => {
         hasTrack={false}
         aria-label="Last Year Highlights"
         options={{
+          perMove: "1",
           autoWidth: true,
           fixedHeight: "400px",
           gap: "2rem",
@@ -67,7 +68,7 @@ const Highlights = () => {
               width: "24px",
               marginRight: "-12px",
             }}
-            className="splide__arrow splide__arrow--next"
+            className="splide__arrow splide__arrow--prev"
           >
             <FontAwesomeIcon icon={faArrowLeft} color="#FDD200" />
           </button>
@@ -81,7 +82,7 @@ const Highlights = () => {
               opacity: "1",
               width: "24px",
             }}
-            className="splide__arrow splide__arrow--prev"
+            className="splide__arrow splide__arrow--next"
           >
             <FontAwesomeIcon icon={faArrowLeft} color="#FDD200" />
           </button>
