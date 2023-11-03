@@ -74,6 +74,9 @@
 }
 
 @layer components {
+  .RemoveTapHighlight {
+    -webkit-tap-highlight-color: transparent; /* for removing the highlight */
+  }
   .max-container {
     max-width: 1440px;
     margin: 0 auto;
@@ -133,66 +136,71 @@
   animation: scroll 20s linear infinite;
 }
 
-/* FAQ section styles START */
+/* FAQ Sliding Animation START */
+/* applies animation to arrow icon, height of collapsible, and content padding */
 
-#faq details {
-  border: 1px solid #fdd200;
-  border-radius: 24px;
-  backdrop-filter: blur(40px);
-  background-color: rgb(0 0 0 / 0.5);
-  box-sizing: border-box;
-  transition: max-height 400ms ease-out;
+.CollapsibleTrigger[data-state="open"] span {
+  transition: padding 300ms ease-out;
+  @apply pb-4;
+}
 
-  max-height: 4rem;
+.CollapsibleTrigger[data-state="closed"] span {
+  transition: padding 300ms ease-out;
+}
+
+.CollapsibleTrigger[data-state="open"] svg {
+  animation: arrowDown 300ms ease-out;
+  animation-fill-mode: forwards;
+}
+.CollapsibleTrigger[data-state="closed"] svg {
+  animation: arrowRight 300ms ease-out;
+}
+
+@keyframes arrowDown {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(90deg);
+  }
+}
+
+@keyframes arrowRight {
+  from {
+    transform: rotate(90deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+.CollapsibleContent {
   overflow: hidden;
 }
 
-#faq summary {
-  color: #fdd200;
-  font-weight: 700;
-  display: block;
+.CollapsibleContent[data-state="open"] {
+  animation: slideDown 300ms ease-out;
+}
+.CollapsibleContent[data-state="closed"] {
+  animation: slideUp 300ms ease-out;
 }
 
-#faq input {
-  display: none;
+@keyframes slideDown {
+  from {
+    height: 0;
+  }
+  to {
+    height: var(--radix-collapsible-content-height);
+  }
 }
 
-#faq label {
-  position: relative;
-  display: flex;
-  align-items: center;
-  padding: 1rem;
-  height: 4rem;
+@keyframes slideUp {
+  from {
+    height: var(--radix-collapsible-content-height);
+  }
+  to {
+    height: 0;
+  }
 }
 
-#faq label:hover {
-  cursor: pointer;
-}
-
-#faq label::before {
-  content: ">";
-  font-size: 1.5rem;
-  font-weight: 400;
-  height: 4rem;
-  display: flex;
-  align-items: center;
-  margin-right: 2rem;
-  transition: rotate 200ms 400ms ease-out;
-}
-
-#faq div.content {
-  padding: 0.5rem 1rem 1rem 4.25rem;
-  color: white;
-  text-wrap: balance;
-}
-
-#faq input:checked + details {
-  max-height: 800px;
-}
-
-#faq input:checked + details label::before {
-  rotate: 90deg;
-  transition: rotate 200ms ease-out;
-}
-
-/* FAQ section styles END */
+/* FAQ Sliding Animation END */
