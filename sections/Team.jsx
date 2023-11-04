@@ -54,6 +54,7 @@ const Team = () => {
                       ? member.imageUrl
                       : "/sections/team/placeholder.jpg"
                   }
+                  loading="eager"
                   alt={member.name}
                   width={280}
                   height={280}
