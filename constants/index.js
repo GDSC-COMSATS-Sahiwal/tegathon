@@ -36,6 +36,7 @@ export const navLinks = [
   { href: "#sponsers", label: "Sponsers" },
   { href: "#highlights", label: "Last Year Highlights" },
   { href: "#faq", label: "FAQs" },
+  { href: "/codeofconduct", label: "Code of conduct" },
 ];
 
 export const eventSchedule = [
