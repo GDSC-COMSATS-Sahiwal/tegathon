@@ -48,7 +48,6 @@ const Highlights = () => {
               className="flex flex-col glass-container gap-4 rounded-3xl"
             >
               <Image
-                loading="eager"
                 src={slide.imageUrl}
                 alt={slide.alt}
                 className="rounded-3xl w-auto h-full object-cover"
