@@ -10,7 +10,7 @@ const Faqs = () => {
   return (
     <section
       id="faq"
-      className="w-full flex flex-col items-center min-h-[160vh] sm:-h-[110vh] gap-10 max-container"
+      className="w-full flex flex-col items-center  gap-10 max-container"
     >
       <h1 className="section-title">FAQs</h1>
       <div>

@@ -1,23 +1,28 @@
 export const teamMembers = [
   {
+    name: "Abdul Raheem",
+    description: "Ex Lead",
+    imageUrl: "/sections/team/members/raheem_01.jpg",
+  },
+  {
     name: "Arslan Khalid",
     description: "Co-Lead",
-    imageUrl: "/sections/team/arslan_01.jpg",
+    imageUrl: "/sections/team/members/arslan_01.jpg",
   },
   {
     name: "Ahsan Raza",
     description: "Web Dev Lead",
-    imageUrl: "",
+    imageUrl: "/sections/team/members/ahsan_01.jpg",
   },
   {
-    name: "Daniyal Ahmad Khan",
+    name: "Daniyal Ahmad",
     description: "Content Writing Lead",
-    imageUrl: "/sections/team/daniyal_01.jpg",
+    imageUrl: "/sections/team/members/daniyal_01.jpg",
   },
   {
-    name: "Muhammad Ahmad ",
+    name: "Muhammad Ahmad",
     description: "Event Management Lead",
-    imageUrl: "/sections/team/ahmad_01.jpg",
+    imageUrl: "/sections/team/members/ahmad_01.jpg",
   },
 
   // Add more team members as needed
