@@ -1,12 +1,13 @@
 "use client";
 
 import Image from "next/image";
+
 import { Splide, SplideSlide, SplideTrack } from "@splidejs/react-splide";
-import "@splidejs/react-splide/css";
+// Splide css is added in teams section, no need to add it here as css styles are global.
 
 import { highlights } from "../constants/highlights.js";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 const Highlights = () => {
   return (
@@ -53,7 +54,7 @@ const Highlights = () => {
           ))}
         </SplideTrack>
 
-        <div className="splide__arrows absolute bottom-10 right-20 md:top-[-130%] md:bottom[130%] md:right-24">
+        <div className="splide__arrows absolute bottom-10 right-20 md:bottom-[120%] md:right-24 text-white">
           <button
             style={{
               border: "1px solid #FDD200",
@@ -63,11 +64,11 @@ const Highlights = () => {
               padding: "1.5rem",
               opacity: "1",
               width: "24px",
-              marginRight: "-12px",
+              marginLeft: "-50px",
             }}
             className="splide__arrow splide__arrow--prev"
           >
-            <FontAwesomeIcon icon={faArrowLeft} color="#FDD200" />
+            <FontAwesomeIcon icon={faArrowRight} color="#FDD200" />
           </button>
           <button
             style={{
@@ -78,10 +79,11 @@ const Highlights = () => {
               padding: "1.5rem",
               opacity: "1",
               width: "24px",
+              marginRight: "-90px",
             }}
             className="splide__arrow splide__arrow--next"
           >
-            <FontAwesomeIcon icon={faArrowLeft} color="#FDD200" />
+            <FontAwesomeIcon icon={faArrowRight} color="#FDD200" />
           </button>
         </div>
       </Splide>

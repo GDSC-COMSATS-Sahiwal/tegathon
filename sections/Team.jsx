@@ -6,7 +6,7 @@ import "@splidejs/react-splide/css";
 import Image from "next/image";
 import { teamMembers } from "../constants";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 const Team = () => {
   return (
@@ -70,7 +70,7 @@ const Team = () => {
           ))}
         </SplideTrack>
 
-        <div className="splide__arrows absolute bottom-[2.15rem] right-20 md:top-[-130%] md:bottom[130%] md:right-24">
+        <div className="splide__arrows absolute bottom-[2.15rem] right-20 md:bottom-[110%] md:right-24">
           <button
             style={{
               border: "1px solid #FDD200",
@@ -80,10 +80,11 @@ const Team = () => {
               padding: "1.5rem",
               opacity: "1",
               width: "24px",
+              marginLeft: "-50px",
             }}
             className="splide__arrow splide__arrow--prev"
           >
-            <FontAwesomeIcon icon={faArrowLeft} color="#FDD200" />
+            <FontAwesomeIcon icon={faArrowRight} color="#FDD200" />
           </button>
 
           <button
@@ -95,11 +96,11 @@ const Team = () => {
               padding: "1.5rem",
               opacity: "1",
               width: "24px",
-              marginRight: "-12px",
+              marginRight: "-90px",
             }}
             className="splide__arrow splide__arrow--next"
           >
-            <FontAwesomeIcon icon={faArrowLeft} color="#FDD200" />
+            <FontAwesomeIcon icon={faArrowRight} color="#FDD200" />
           </button>
         </div>
       </Splide>
