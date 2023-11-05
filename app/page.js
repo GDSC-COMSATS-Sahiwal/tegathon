@@ -47,13 +47,13 @@ export default function Home() {
       </section>
       <section
         id="highlights"
-        className="bg-cover bg-center bg-[url('../public/sections/highlights/bg.jpg')] padding"
+        className="relative z-[1] bg-cover bg-center bg-[url('../public/sections/highlights/bg.jpg')] padding"
       >
         <Highlights />
       </section>
       <section
         id="faq"
-        className="bg-cover bg-center bg-[url('../public/sections/faq/bg.jpg')] padding-y px-2 sm:px-16"
+        className="relative z-[1] bg-cover bg-center bg-[url('../public/sections/faq/bg.jpg')] padding-y px-2 sm:px-16"
       >
         <Faq />
       </section>
