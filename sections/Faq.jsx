@@ -8,10 +8,7 @@ import {
 
 const Faqs = () => {
   return (
-    <section
-      id="faq"
-      className="w-full flex flex-col items-center  gap-10 max-container"
-    >
+    <section className="w-full flex flex-col items-center gap-10 max-container">
       <h1 className="section-title">FAQs</h1>
       <div>
         {faqs.map((faq, index) => (

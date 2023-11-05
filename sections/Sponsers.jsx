@@ -1,11 +1,8 @@
-import Image from 'next/image';
-import { Button } from '@/components/ui/button';
+import Image from "next/image";
+import { Button } from "@/components/ui/button";
 const Sponsers = () => {
   return (
-    <section
-      id="sponsers"
-      className="w-full h-full text-white flex flex-col items-center justify-start min-h-0 gap-8 max-container"
-    >
+    <section className="w-full h-full text-white flex flex-col items-center justify-start min-h-0 gap-8 max-container">
       <h1 className="section-title">Sponsors</h1>
 
       <div className="grid grid-cols-10 max-sm:grid-cols-1 w-full glass-container rounded-lg md:rounded-3xl ">

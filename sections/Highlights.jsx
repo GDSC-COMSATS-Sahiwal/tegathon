@@ -10,10 +10,7 @@ import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 const Highlights = () => {
   return (
-    <section
-      id="highlights"
-      className="w-full flex-row justify-center gap-10 max-container relative"
-    >
+    <section className="w-full flex-row justify-center gap-10 max-container relative">
       <div>
         <h1 className="section-title ml-12">Last Year Highlights</h1>
       </div>

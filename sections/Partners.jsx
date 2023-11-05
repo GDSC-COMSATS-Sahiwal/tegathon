@@ -1,10 +1,7 @@
-import Image from 'next/image';
+import Image from "next/image";
 const Partners = () => {
   return (
-    <section
-      id="partners"
-      className="w-full h-full text-white flex flex-col items-center justify-start min-h-0 gap-10 max-container"
-    >
+    <section className="w-full h-full text-white flex flex-col items-center justify-start min-h-0 gap-10 max-container">
       <h1 className="section-title">Partners</h1>
 
       <div className="grid grid-cols-8 max-sm:grid-cols-1 w-full glass-container rounded-lg md:rounded-3xl border border-[#FDD200]">

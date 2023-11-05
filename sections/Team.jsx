@@ -10,10 +10,7 @@ import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 const Team = () => {
   return (
-    <section
-      id="team"
-      className="w-full flex-row justify-center gap-10 max-container relative"
-    >
+    <section className="w-full flex-row justify-center gap-10 max-container relative">
       <div>
         <h1 className="section-title ml-12">Our Team</h1>
       </div>
@@ -59,9 +56,14 @@ const Team = () => {
                   height={280}
                   className="rounded-3xl border border-[#FDD200] h-[280px] w-auto object-cover object-top"
                 />
-                <h3 className="md:text-4xl text-3xl font-bold sm:font-black text-[#FDD200]">
-                  {member.name}
-                </h3>
+                <div className="flex flex-col gap-0">
+                  <p className="md:text-4xl text-3xl font-bold sm:font-black text-[#FDD200]">
+                    {member.name.split(" ")[0]}
+                  </p>
+                  <p className="md:text-4xl text-3xl font-bold sm:font-black text-[#FDD200]">
+                    {member.name.split(" ")[1]}
+                  </p>
+                </div>
                 <p className="text-white">{member.description}</p>
               </div>
             </SplideSlide>

@@ -2,10 +2,7 @@ import { eventSchedule } from "../constants";
 
 const Schedule = () => {
   return (
-    <section
-      id="schedule"
-      className=" text-white w-full flex flex-col items-center min-h-screen gap-8 max-container"
-    >
+    <section className=" text-white w-full flex flex-col items-center min-h-screen gap-8 max-container">
       <h1 className="section-title text-center">Event Schedule</h1>
       <div className="flex flex-col xl:flex-row gap-8">
         {eventSchedule.map((event) => (
@@ -19,7 +16,7 @@ const Schedule = () => {
         >
           Tech - Game - Code
         </h1>
-        <h2 className="md:text-[2rem] lg:text-[2.5rem] xl:text-[3rem]">
+        <h2 className="md:text-[2rem] lg:text-[2.9rem] xl:text-[3.4rem]">
           Challenge Yourself, Change the Game!
         </h2>
       </div>

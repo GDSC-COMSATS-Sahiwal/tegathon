@@ -14,7 +14,7 @@ const CodeofConduct = () => {
         wants to be industry ready, you are at the right place.
       </p> */}
 
-      <h1 className="coc__heading">CODE OF CONDUCT</h1>
+      <h1 className="section-title pt-12">CODE OF CONDUCT</h1>
 
       <p className="coc__para">
         It is essential for all participants in an event, including attendees,
