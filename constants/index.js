@@ -1,7 +1,7 @@
 export const teamMembers = [
   {
     name: "Abdul Raheem",
-    description: "Ex Lead",
+    description: "GitHub Campus Expert",
     imageUrl: "/sections/team/members/raheem_01.jpg",
   },
   {
