@@ -1,7 +1,7 @@
 "use client";
 
 import HeroTimer from "@/components/Clock";
-import tegathonLogo from "/public/sections/hero/logo.png";
+import tegathonLogo from "/public/sections/hero/logo.webp";
 import Image from "next/image";
 
 const Hero = () => {
