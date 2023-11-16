@@ -12,7 +12,7 @@ const Footer = () => {
     <footer className="bg-cover bg-center bg-[url('../public/sections/footer/bg-footer.webp')] padding">
       <div className="w-full max-container grid gap-8 md:grid-cols-2 place-items-center">
         {/* Footer Img */}
-        <div className="flex w-full items-center justify-center md:justify-start">
+        <div className="flex w-full items-center justify-center md:justify-start mb-4">
           <Image
             priority={true}
             src={FooterLogo}
