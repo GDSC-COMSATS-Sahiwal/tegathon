@@ -1,27 +1,44 @@
-import { navLinks } from '../constants';
+'use client';
+
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { Button } from './ui/button';
+
+import useHash from '@/hooks/useHash';
+
+import { navLinks } from '../constants';
 
 const NavLinks = () => {
+  const linkPath = useHash();
+  const [urlPath, setUrlPath] = useState('');
+
+  useEffect(() => {
+    setUrlPath(linkPath);
+  }, [linkPath]);
+
   return (
-    <header className="padding-x py-8 absolute z-10 w-full top-0">
-      <nav className="glass-container rounded-3xl p-2 flex justify-between items-center max-container">
-        <Link href="/">
-          <Button className="bg-[#FDD200] text-[#333333] text-base font-bold hover:bg-yellow-500 hover:text-white px-12 py-6 rounded-2xl">
-            Home
-          </Button>
-        </Link>
-        <ul className="flex-1 flex justify-center items-center gap-6 xl:gap-16 max-lg:hidden text-white">
-          {navLinks.map((item) => (
-            <li key={item.label}>
-              <a
-                href={item.href}
-                className="font-montserrat leading-normal text-lg text-slate-gray"
-              >
-                {item.label}
-              </a>
-            </li>
-          ))}
+    <header className="py-8 absolute z-10 w-full top-0 px-2">
+      <nav className="glass-container rounded-3xl p-2 flex justify-between items-center py-5 max-container">
+        <ul className="flex-1 flex justify-center items-center xl:gap-2 max-lg:hidden text-white">
+          {navLinks.map((item) => {
+            const handleClick = (path) => {
+              setUrlPath(path);
+            };
+            return (
+              <li key={item.label}>
+                <Link
+                  onClick={() => handleClick(item.href)}
+                  href={item.href}
+                  className={`font-montserrat leading-normal text-base font-bold text-slate-gray px-4 py-3 rounded-2xl transition-all ease-linear duration-100 ${
+                    urlPath === item.href
+                      ? 'bg-[#FDD200] hover:bg-[#FDD200]/75 text-[#333333]'
+                      : 'hover:bg-slate-50/10 hover:text-white text-white/80'
+                  } `}
+                >
+                  {item.label}
+                </Link>
+              </li>
+            );
+          })}
         </ul>
       </nav>
     </header>

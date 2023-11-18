@@ -1,13 +1,5 @@
-import CodeofConduct from "./COC";
-import Nav from "@/components/Nav";
-import Footer from "@/components/Footer";
+import CodeofConduct from './COC';
 
 export default function CodeConduct() {
-  return (
-    <main className="relative">
-      <Nav />
-      <CodeofConduct />
-      <Footer />
-    </main>
-  );
+  return <CodeofConduct />;
 }

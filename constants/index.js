@@ -70,6 +70,7 @@ export const teamMembers = [
 ];
 
 export const navLinks = [
+  { href: '/', label: 'Home' },
   { href: '/#about', label: 'About' },
   { href: '/#schedule', label: 'Event Schedule' },
   { href: '/#team', label: 'Team' },
