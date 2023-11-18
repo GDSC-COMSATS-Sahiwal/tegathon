@@ -1,13 +1,13 @@
-"use client";
+'use client';
 
-import Image from "next/image";
+import Image from 'next/image';
 
-import { Splide, SplideSlide, SplideTrack } from "@splidejs/react-splide";
-// Splide css is added in teams section, no need to add it here as css styles are global.
+import { Splide, SplideSlide, SplideTrack } from '@splidejs/react-splide';
+// Splide css is added in globals.css, no need to add it here as css styles are global.
 
-import { highlights } from "../constants/highlights.js";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { highlights } from '../constants/highlights.js';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 const Highlights = () => {
   return (
@@ -19,21 +19,21 @@ const Highlights = () => {
         hasTrack={false}
         aria-label="Last Year Highlights"
         options={{
-          perMove: "1",
+          perMove: '1',
           autoWidth: true,
-          fixedHeight: "400px",
-          gap: "2rem",
+          fixedHeight: '400px',
+          gap: '2rem',
           pagination: false,
           perPage: 2,
-          type: "loop",
+          type: 'loop',
           autoplay: true,
           breakpoints: {
             1024: {
               perPage: 2,
-              fixedHeight: "250px",
+              fixedHeight: '250px',
             },
             480: {
-              fixedHeight: "170px",
+              fixedHeight: '170px',
               perPage: 1,
             },
           },
@@ -57,14 +57,7 @@ const Highlights = () => {
         <div className="splide__arrows absolute bottom-10 right-20 md:bottom-[120%] md:right-24 text-white">
           <button
             style={{
-              border: "1px solid #FDD200",
-              borderRadius: "18px",
-              background: "rgba(0, 0, 0, 0.50);",
-              backdropFilter: "blur(50px);",
-              padding: "1.5rem",
-              opacity: "1",
-              width: "24px",
-              marginLeft: "-50px",
+              marginLeft: '-50px',
             }}
             className="splide__arrow splide__arrow--prev"
           >
@@ -72,14 +65,7 @@ const Highlights = () => {
           </button>
           <button
             style={{
-              border: "1px solid #FDD200",
-              borderRadius: "18px",
-              background: "rgba(0, 0, 0, 0.50);",
-              backdropFilter: "blur(50px);",
-              padding: "1.5rem",
-              opacity: "1",
-              width: "24px",
-              marginRight: "-90px",
+              marginRight: '-90px',
             }}
             className="splide__arrow splide__arrow--next"
           >
