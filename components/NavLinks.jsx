@@ -18,7 +18,7 @@ const NavLinks = () => {
   return (
     <header className="py-8 absolute z-10 w-full top-0 px-2">
       <nav className="glass-container rounded-3xl p-2 flex justify-between items-center py-5 max-container">
-        <ul className="flex-1 flex justify-center items-center xl:gap-2 max-lg:hidden text-white">
+        <ul className="flex-1 flex justify-center items-center gap-2 max-lg:hidden text-white">
           {navLinks.map((item) => {
             const handleClick = (path) => {
               setUrlPath(path);
@@ -28,7 +28,7 @@ const NavLinks = () => {
                 <Link
                   onClick={() => handleClick(item.href)}
                   href={item.href}
-                  className={`font-montserrat leading-normal text-base font-bold text-slate-gray px-4 py-3 rounded-2xl transition-all ease-linear duration-100 ${
+                  className={`font-montserrat leading-normal text-base font-bold text-slate-gray px-3 py-3 rounded-2xl transition-all ease-linear duration-100 ${
                     urlPath === item.href
                       ? 'bg-[#FDD200] hover:bg-[#FDD200]/75 text-[#333333]'
                       : 'hover:bg-slate-50/10 hover:text-white text-white/80'
