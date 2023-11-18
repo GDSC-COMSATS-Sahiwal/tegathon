@@ -1,12 +1,11 @@
-"use client";
+'use client';
 
-import { Splide, SplideSlide, SplideTrack } from "@splidejs/react-splide";
-import "@splidejs/react-splide/css";
+import { Splide, SplideSlide, SplideTrack } from '@splidejs/react-splide';
 
-import Image from "next/image";
-import { teamMembers } from "../constants";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import Image from 'next/image';
+import { teamMembers } from '../constants';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 const Team = () => {
   return (
@@ -18,12 +17,12 @@ const Team = () => {
         hasTrack={false}
         aria-label="Our Team"
         options={{
-          perMove: "1",
-          width: "100%",
-          gap: "2rem",
+          perMove: '1',
+          width: '100%',
+          gap: '2rem',
           pagination: false,
           perPage: 4,
-          type: "loop",
+          type: 'loop',
           autoplay: true,
           breakpoints: {
             1024: {
@@ -49,7 +48,7 @@ const Team = () => {
                   src={
                     member.imageUrl
                       ? member.imageUrl
-                      : "/sections/team/placeholder.jpg"
+                      : '/sections/team/placeholder.jpg'
                   }
                   alt={member.name}
                   width={280}
@@ -58,10 +57,10 @@ const Team = () => {
                 />
                 <div className="flex flex-col gap-0">
                   <p className="md:text-4xl text-3xl font-bold sm:font-black text-[#FDD200]">
-                    {member.name.split(" ")[0]}
+                    {member.name.split(' ')[0]}
                   </p>
                   <p className="md:text-4xl text-3xl font-bold sm:font-black text-[#FDD200]">
-                    {member.name.split(" ")[1]}
+                    {member.name.split(' ')[1]}
                   </p>
                 </div>
                 <p className="text-white">{member.description}</p>
@@ -73,14 +72,7 @@ const Team = () => {
         <div className="splide__arrows absolute bottom-[2.15rem] right-20 md:bottom-[110%] md:right-24">
           <button
             style={{
-              border: "1px solid #FDD200",
-              borderRadius: "18px",
-              background: "rgba(0, 0, 0, 0.50);",
-              backdropFilter: "blur(50px);",
-              padding: "1.5rem",
-              opacity: "1",
-              width: "24px",
-              marginLeft: "-50px",
+              marginLeft: '-50px',
             }}
             className="splide__arrow splide__arrow--prev"
           >
@@ -89,14 +81,7 @@ const Team = () => {
 
           <button
             style={{
-              border: "1px solid #FDD200",
-              borderRadius: "18px",
-              background: "rgba(0, 0, 0, 0.50);",
-              backdropFilter: "blur(50px);",
-              padding: "1.5rem",
-              opacity: "1",
-              width: "24px",
-              marginRight: "-90px",
+              marginRight: '-90px',
             }}
             className="splide__arrow splide__arrow--next"
           >
