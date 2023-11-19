@@ -1,134 +1,138 @@
 .coc {
-  background-color: #222222 ;
-    color: #fff;
-    padding: 4rem;
-    min-height: 100vh;
-    font-size: 1.25rem;
+  background-color: #222222;
+  color: #fff;
+  padding: 4rem;
+  min-height: 100vh;
+  font-size: 1.25rem;
+  text-align: center;
+
+  ol {
+    list-style-type: decimal;
+
+    ul {
+      list-style-type: circle;
+    }
+  }
+
+  &__para {
+    margin-bottom: 1.5rem;
+    margin-left: 2rem;
+    text-align: left;
+
+    &--pink {
+      font-weight: 900;
+      // color: #ff597b;
+    }
+  }
+
+  &__heading {
+    font-weight: 900;
+    display: inline-block;
+    font-size: 3rem;
     text-align: center;
+    margin: 3rem 0;
+    position: relative;
 
-    ol {
-      list-style-type: decimal;
+    &::before {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      background-color: #fff;
+      width: 100%;
+      height: 1px;
+    }
+  }
 
-      ul {
-            list-style-type: circle;
+  &__group {
+    text-align: left;
+    margin-top: 5rem;
+    &--heading {
+      font-size: 2.5rem;
+      font-weight: 500;
+    }
+
+    &--list {
+      margin: 1rem 0 0 2.5rem;
+
+      & > li {
+        margin-top: 2rem;
+        font-weight: 600;
+      }
+
+      &-heading {
+        font-weight: 600;
+      }
+      &-para {
+        font-weight: 300;
+        text-indent: 5rem;
+        margin-top: 0.5rem;
       }
     }
 
+    &--sublist {
+      margin-left: 11rem;
+      font-weight: 300;
+    }
 
-  
+    &--para {
+      text-indent: 7rem;
+      margin-top: 1rem;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .coc {
+    padding: 0.75rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+
+    & p {
+      font-size: 1rem;
+    }
+
     &__para {
       margin-bottom: 1.5rem;
-      text-align: justify;
-  
-      &--pink {
-        font-weight: 900;
-        // color: #ff597b;
-      }
     }
-  
+
     &__heading {
-      font-weight: 900;
-      display: inline-block;
-      font-size: 3rem;
-      text-align: center;
+      font-size: 2.5rem;
       margin: 3rem 0;
-      position: relative;
-  
-      &::before {
-        content: "";
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        background-color: #fff;
-        width: 100%;
-        height: 1px;
-      }
     }
-  
+
     &__group {
-      text-align: left;
       margin-top: 5rem;
       &--heading {
-        font-size: 2.5rem;
-        font-weight: 500;
+        font-size: 1.5rem;
+        font-weight: 400;
       }
-  
+
       &--list {
-        margin: 1rem 0 0 2.5rem;
-  
+        margin: 1rem 0 0 1rem;
+
         & > li {
-          margin-top: 2rem;
-          font-weight: 600;
+          font-weight: 400;
         }
-  
-        &-heading {
-          font-weight: 600;
-        }
+
         &-para {
-          font-weight: 300;
-          text-indent: 5rem;
-          margin-top: 0.5rem;
+          text-indent: 1rem;
+        }
+
+        &-heading {
+          font-size: 1.25rem;
+          font-weight: 400;
         }
       }
-  
+
       &--sublist {
-        margin-left: 11rem;
-        font-weight: 300;
+        margin-left: 2rem;
+        font-size: 1rem;
       }
-  
+
       &--para {
-        text-indent: 7rem;
-        margin-top: 1rem;
+        text-indent: 1rem;
       }
     }
   }
-  
-  @media (max-width: 900px) {
-    .coc {
-      padding: 4rem;
-    }
-  }
-  
-  @media (max-width: 600px) {
-    .coc {
-      padding: 4rem;
-  
-      &__para {
-        margin-bottom: 1.5rem;
-      }
-  
-      &__heading {
-        font-size: 2.5rem;
-        margin: 3rem 0;
-      }
-  
-      &__group {
-        margin-top: 5rem;
-        &--heading {
-          font-size: 2rem;
-        }
-  
-        &--list {
-          margin: 1rem 0 0 2.5rem;
-  
-          &-para {
-            text-indent: 3rem;
-          }
-        }
-  
-        &--sublist {
-          margin-left: 4rem;
-        }
-  
-        &--para {
-          text-indent: 3rem;
-        }
-      }
-    }
-  }
-  
-  @media (max-width: 390px) {
-    .coc {
-      padding: 4rem;
-    }
-  }
+}

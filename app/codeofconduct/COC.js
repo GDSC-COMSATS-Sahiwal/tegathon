@@ -1,4 +1,4 @@
-import "./coc.scss";
+import './coc.scss';
 const CodeofConduct = () => {
   return (
     <div className="coc">
