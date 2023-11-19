@@ -19,7 +19,7 @@ const Sponsers = () => {
         </div>
         <div className="col-start-4 col-span-4 p-4 max-sm:col-span-3 max-sm:col-start-1 flex flex-col  gap-4 items-center justify-between border-b max-sm:border-b-0 max-sm:border-r  border-yellow-400">
           <Image
-            src="/sections/sponser/universe.webp"
+            src="/sections/sponser/gdsc.webp"
             height={350}
             width={350}
             alt="Universe23"
@@ -30,7 +30,7 @@ const Sponsers = () => {
         </div>
         <div className="col-start-8 col-span-3 max-sm:col-span-3 max-sm:col-start-4 p-4 flex flex-col  gap-4 items-center justify-between sm:border-l border-yellow-400 rounded-tr-lg md:rounded-tr-3xl  max-sm:rounded-none">
           <Image
-            src="/sections/sponser/universe.webp"
+            src="/sections/sponser/css.webp                             "
             height={350}
             width={350}
             alt="Universe23"
@@ -41,7 +41,7 @@ const Sponsers = () => {
         </div>
         <div className="col-start-1 col-span-2  max-sm:col-span-6 max-sm:col-start-1 p-4 flex flex-col  gap-4 items-center justify-end border-t border-yellow-400">
           <Image
-            src="/sections/sponser/universe.webp"
+            src="/sections/sponser/gaming.webp"
             height={350}
             width={350}
             alt="Universe23"
@@ -52,7 +52,7 @@ const Sponsers = () => {
         </div>
         <div className="col-start-3 col-span-3  max-sm:col-span-2 max-sm:col-start-1 p-4 flex flex-col  gap-4 items-center justify-end sm:border-l max-sm:border-r border-t border-yellow-400">
           <Image
-            src="/sections/sponser/universe.webp"
+            src="/sections/sponser/mlsa.webp"
             height={350}
             width={350}
             alt="Universe23"
@@ -63,7 +63,7 @@ const Sponsers = () => {
         </div>
         <div className="col-start-6 col-span-3  max-sm:col-span-2 max-sm:col-start-3 p-4 flex flex-col  gap-4 items-center justify-end sm:border-l max-sm:border-r border-t border-yellow-400">
           <Image
-            src="/sections/sponser/universe.webp"
+            src="/sections/sponser/cheezious.webp"
             height={350}
             width={350}
             alt="Universe23"
@@ -74,7 +74,7 @@ const Sponsers = () => {
         </div>
         <div className="col-start-9 col-span-2 p-4  max-sm:col-span-2 max-sm:col-start-5 flex flex-col  gap-4 items-center justify-end sm:border-l border-t border-yellow-400 ">
           <Image
-            src="/sections/sponser/universe.webp"
+            src="/sections/sponser/devhub.webp"
             height={350}
             width={350}
             alt="Universe23"
@@ -85,7 +85,7 @@ const Sponsers = () => {
         </div>
         <div className="col-start-1 col-span-2 max-sm:col-span-3 max-sm:col-start-1 p-4 flex  flex-col  gap-4  items-center justify-center max-sm:border-r border-t border-yellow-400 rounded-bl-lg md:rounded-bl-3xl max-sm:rounded-none">
           <Image
-            src="/sections/sponser/universe.webp"
+            src="/sections/sponser/datacamp.webp"
             height={350}
             width={350}
             alt="Universe23"
@@ -107,7 +107,7 @@ const Sponsers = () => {
         </div>
         <div className="col-start-5 col-span-2 max-sm:col-span-2 max-sm:col-start-1 p-4 flex  flex-col  gap-4  items-center justify-center sm:border-l max-sm:border-r border-t border-yellow-400">
           <Image
-            src="/sections/sponser/universe.webp"
+            src="/sections/sponser/datacamp.webp"
             height={350}
             width={350}
             alt="Universe23"
@@ -129,7 +129,7 @@ const Sponsers = () => {
         </div>
         <div className="col-start-9 col-span-2 p-4 max-sm:col-span-2 max-sm:col-start-5 flex  flex-col  gap-4  items-center justify-center sm:border-l border-t border-yellow-400 rounded-br-lg md:rounded-br-3xl  max-sm:rounded-bl-lg">
           <Image
-            src="/sections/sponser/universe.webp"
+            src="/sections/sponser/datacamp.webp"
             height={350}
             width={350}
             alt="Universe23"

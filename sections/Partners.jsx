@@ -15,7 +15,7 @@ const Partners = () => {
         </div>
         <div className="col-start-4 col-span-2 p-4 max-sm:col-span-3 max-sm:col-start-4 flex items-center justify-center sm:border-l border-t max-sm:border-t-0 border-yellow-400">
           <Image
-            src="/sections/partner/universe.webp"
+            src="/sections/partner/mlsa.webp"
             height={350}
             width={350}
             alt="Universe23"
@@ -23,7 +23,7 @@ const Partners = () => {
         </div>
         <div className="col-start-6 col-span-3 max-sm:col-span-2 max-sm:col-start-1 p-4 flex items-center justify-center sm:border-l border-t border-yellow-400 rounded-tr-lg max-sm:border-r md:rounded-tr-3xl  max-sm:rounded-none">
           <Image
-            src="/sections/partner/universe.webp"
+            src="/sections/partner/gdsc.webp"
             height={350}
             width={350}
             alt="Universe23"
@@ -39,7 +39,7 @@ const Partners = () => {
         </div>
         <div className="col-start-3 col-span-2 max-sm:col-span-2 max-sm:col-start-5 p-4 flex items-center justify-center sm:border-l border-t border-yellow-400">
           <Image
-            src="/sections/partner/universe.webp"
+            src="/sections/partner/devhub.webp"
             height={350}
             width={350}
             alt="Universe23"
@@ -47,7 +47,7 @@ const Partners = () => {
         </div>
         <div className="col-start-5 col-span-2 max-sm:col-span-3 max-sm:col-start-1 p-4 flex items-center justify-center max-sm:border-r sm:border-l border-t border-yellow-400">
           <Image
-            src="/sections/partner/universe.webp"
+            src="/sections/partner/datacamp.webp"
             height={350}
             width={350}
             alt="Universe23"
@@ -55,7 +55,7 @@ const Partners = () => {
         </div>
         <div className="col-start-7 col-span-2 p-4 max-sm:col-span-3 max-sm:col-start-4 flex items-center justify-center sm:border-l border-t border-yellow-400 rounded-br-lg md:rounded-br-3xl  max-sm:rounded-bl-lg">
           <Image
-            src="/sections/partner/universe.webp"
+            src="/sections/partner/aws.webp"
             height={350}
             width={350}
             alt="Universe23"
