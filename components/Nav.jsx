@@ -10,7 +10,7 @@ const Nav = () => {
           <NavLinks />
         </div>
 
-        <div className="w-11/12 flex justify-between lg:hidden p-3 rounded-3xl  items-center max-container absolute top-4 text-white glass-container">
+        <div className="w-11/12 flex justify-between lg:hidden p-2 rounded-[20px]  items-center max-container absolute top-4 text-white glass-container">
           <HomeButton />
           <MobileSidebar />
         </div>
