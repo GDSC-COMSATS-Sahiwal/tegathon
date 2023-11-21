@@ -17,21 +17,21 @@ const NavLinks = () => {
 
   return (
     <header className="py-8 absolute z-10 w-full top-0 px-2">
-      <nav className="glass-container rounded-3xl p-2 flex justify-between items-center py-5 max-container">
+      <nav className="glass-container rounded-[32px] p-2 flex justify-between items-center py-8 mx-auto max-w-min">
         <ul className="flex-1 flex justify-center items-center gap-2 max-lg:hidden text-white">
           {navLinks.map((item) => {
             const handleClick = (path) => {
               setUrlPath(path);
             };
             return (
-              <li key={item.label}>
+              <li className="max-w-full" key={item.label}>
                 <Link
                   onClick={() => handleClick(item.href)}
                   href={item.href}
-                  className={`font-montserrat leading-normal text-base font-bold text-slate-gray px-3 py-3 rounded-2xl transition-all ease-linear duration-100 ${
+                  className={`font-montserrat leading-normal text-base font-bold text-slate-gray max-w-full py-6 link-px rounded-3xl transition-all ease-linear duration-100 ${
                     urlPath === item.href
-                      ? 'bg-[#FDD200] hover:bg-[#FDD200]/75 text-[#333333]'
-                      : 'hover:bg-slate-50/10 hover:text-white text-white/80'
+                      ? 'bg-[#FDD200] hover:bg-[#FDD200]/80 text-[#333333]'
+                      : 'hover:bg-white/10 text-yellow-400'
                   } `}
                 >
                   {item.label}

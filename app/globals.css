@@ -136,6 +136,27 @@
   animation: scroll 30s linear infinite;
 }
 
+/* Navbar Responsive Padding */
+
+.link-px {
+  padding-right: calc(0.5rem + 3.5vw);
+  padding-left: calc(0.5rem + 3.5vw);
+}
+
+@media screen and (max-width: 1550px) {
+  .link-px {
+    padding-right: calc(0.5rem + 2.5vw);
+    padding-left: calc(0.5rem + 2.5vw);
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .link-px {
+    padding-right: calc(0.5rem + 2.1vw);
+    padding-left: calc(0.5rem + 2.1vw);
+  }
+}
+
 /* Background Gradient Fade */
 
 #faq::before,

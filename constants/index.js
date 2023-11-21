@@ -72,13 +72,12 @@ export const teamMembers = [
 export const navLinks = [
   { href: '/', label: 'Home' },
   { href: '/#about', label: 'About' },
-  { href: '/#schedule', label: 'Event Schedule' },
+  { href: '/#schedule', label: 'Schedule' },
   { href: '/#team', label: 'Team' },
-  { href: '/#sponsers', label: 'Sponsers' },
+  { href: '/#sponsers', label: 'Sponsors' },
   { href: '/#partners', label: 'Partners' },
-  { href: '/#highlights', label: 'Last Year Highlights' },
+  { href: '/#highlights', label: 'Highlights' },
   { href: '/#faq', label: 'FAQs' },
-  { href: '/codeofconduct', label: 'Code of conduct' },
 ];
 
 export const eventSchedule = [
