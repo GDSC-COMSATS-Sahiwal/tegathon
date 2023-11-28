@@ -48,22 +48,6 @@ const Hero = () => {
           </div>
           {/* Hero Countdown */}
           <div className="flex items-center justify-center">
-            <Image
-              priority={true}
-              src={lines}
-              alt="lines"
-              width={700}
-              height={700}
-              className="absolute right-0 bottom-0"
-            />
-            <Image
-              priority={true}
-              src={astro}
-              alt="astro"
-              width={600}
-              height={600}
-              className="absolute right-0 bottom-0"
-            />
             <div className="glass-container py-2 px-6 rounded-3xl text-center relative md:-mb-24 md:-mr-10 text-[#FDD200] font-bold">
               <HeroTimer expiryTimestamp={timeStamp} />
             </div>
