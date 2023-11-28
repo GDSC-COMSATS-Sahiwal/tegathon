@@ -2,6 +2,9 @@
 
 import HeroTimer from '@/components/Clock';
 import tegathonLogo from '/public/sections/hero/logo.webp';
+import lines from '@/public/sections/hero/lines.svg';
+import astro from '@/public/sections/hero/astro.webp';
+
 import Image from 'next/image';
 
 const Hero = () => {
@@ -12,7 +15,7 @@ const Hero = () => {
     <section id="home" className=" relative ">
       <div className="py-20 sm:padding max-container">
         {/* Grid Container */}
-        <div className="grid px-5 md:py-28 py-10 gap-16 md:gap-4 md:grid-cols-2">
+        <div className="grid px-5 md:py-28 py-12 gap-72 md:gap-4 md:grid-cols-2">
           {/* Hero img, text, and button */}
           <div className="md:space-y-12 space-y-4">
             <div className="flex w-full items-center justify-center">
@@ -45,6 +48,22 @@ const Hero = () => {
           </div>
           {/* Hero Countdown */}
           <div className="flex items-center justify-center">
+            <Image
+              priority={true}
+              src={lines}
+              alt="lines"
+              width={700}
+              height={700}
+              className="absolute right-0 bottom-0"
+            />
+            <Image
+              priority={true}
+              src={astro}
+              alt="astro"
+              width={600}
+              height={600}
+              className="absolute right-0 bottom-0"
+            />
             <div className="glass-container py-2 px-6 rounded-3xl text-center relative md:-mb-24 md:-mr-10 text-[#FDD200] font-bold">
               <HeroTimer expiryTimestamp={timeStamp} />
             </div>
