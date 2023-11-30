@@ -15,12 +15,12 @@ export default function Home() {
       <section className="bg-cover bg-center bg-[url('../public/sections/hero/bg.webp')] object-cover">
         <Hero />
       </section>
-      <section className="bg-cover bg-center bg-[url('../public/sections/about/bg.webp')] object-cover">
+      <section className="bg-cover bg-center bg-[url('../public/sections/about/bg.webp')] object-cover relative">
         <About />
       </section>
       <section
         id="schedule"
-        className="bg-cover bg-center bg-[url('../public/sections/schedule/bg.webp')] padding"
+        className="bg-cover bg-center bg-[url('../public/sections/schedule/bg.webp')] relative"
       >
         <Schedule />
       </section>
