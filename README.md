@@ -1,1 +1,1 @@
-[Live Demo](https://tegathon.vercel.app/)
+[Live Demo](https://www.tegathon.tech/)
