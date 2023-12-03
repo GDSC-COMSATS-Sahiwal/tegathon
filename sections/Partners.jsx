@@ -10,6 +10,7 @@ const Partners = () => {
             src="/sections/partner/github.webp"
             height={350}
             width={350}
+            className='max-h-40 object-contain'
             alt="Github"
           />
         </div>
@@ -18,6 +19,7 @@ const Partners = () => {
             src="/sections/partner/mlsa.webp"
             height={350}
             width={350}
+            className='max-h-40 object-contain'
             alt="Universe23"
           />
         </div>
@@ -26,6 +28,7 @@ const Partners = () => {
             src="/sections/partner/gdsc.webp"
             height={350}
             width={350}
+            className='max-h-40 object-contain'
             alt="Universe23"
           />
         </div>
@@ -34,6 +37,7 @@ const Partners = () => {
             src="/sections/partner/universe.webp"
             height={350}
             width={350}
+            className='max-h-40 object-contain'
             alt="Universe23"
           />
         </div>
@@ -42,6 +46,7 @@ const Partners = () => {
             src="/sections/partner/devhub.webp"
             height={350}
             width={350}
+            className='max-h-40 object-contain'
             alt="Universe23"
           />
         </div>
@@ -50,6 +55,7 @@ const Partners = () => {
             src="/sections/partner/datacamp.webp"
             height={350}
             width={350}
+            className='max-h-40 object-contain'
             alt="Universe23"
           />
         </div>
@@ -58,6 +64,7 @@ const Partners = () => {
             src="/sections/partner/aws.webp"
             height={350}
             width={350}
+            className='max-h-40 object-contain'
             alt="Universe23"
           />
         </div>

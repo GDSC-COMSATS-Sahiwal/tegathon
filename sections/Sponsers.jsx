@@ -12,6 +12,7 @@ const Sponsers = () => {
             height={350}
             width={350}
             alt="Github"
+            className='max-h-40 object-contain'
           />
           <Button className="bg-[#FDD200] text-black hover:bg-yellow-500 hover:text-white px-4 py-2 rounded-full">
             Gold
@@ -22,6 +23,7 @@ const Sponsers = () => {
             src="/sections/sponser/gdsc.webp"
             height={350}
             width={350}
+            className='max-h-40 object-contain'
             alt="Universe23"
           />
           <Button className="bg-[#FDD200] text-black hover:bg-yellow-500 hover:text-white px-4 py-2 rounded-full">
@@ -33,6 +35,7 @@ const Sponsers = () => {
             src="/sections/sponser/css.webp                             "
             height={350}
             width={350}
+            className='max-h-40 object-contain'
             alt="Universe23"
           />
           <Button className="bg-[#FDD200] text-black hover:bg-yellow-500 hover:text-white px-4 py-2 rounded-full">
@@ -45,6 +48,7 @@ const Sponsers = () => {
             height={350}
             width={350}
             alt="Universe23"
+            className='max-h-40 object-contain'
           />
           <Button className="bg-[#C0C0C0] text-black hover:bg-[#C0C0C0] hover:text-white px-4 py-2 rounded-full">
             Silver
@@ -55,6 +59,7 @@ const Sponsers = () => {
             src="/sections/sponser/mlsa.webp"
             height={350}
             width={350}
+            className='max-h-40 object-contain'
             alt="Universe23"
           />
           <Button className="bg-[#C0C0C0] text-black hover:bg-[#C0C0C0] hover:text-white px-4 py-2 rounded-full">
@@ -66,6 +71,7 @@ const Sponsers = () => {
             src="/sections/sponser/cheezious.webp"
             height={350}
             width={350}
+            className='max-h-40 object-contain'
             alt="Universe23"
           />
           <Button className="bg-[#C0C0C0] text-black hover:bg-[#C0C0C0] hover:text-white px-4 py-2 rounded-full">
@@ -77,6 +83,7 @@ const Sponsers = () => {
             src="/sections/sponser/devhub.webp"
             height={350}
             width={350}
+            className='max-h-40 object-contain'
             alt="Universe23"
           />
           <Button className="bg-[#C0C0C0] text-black hover:bg-[#C0C0C0] hover:text-white px-4 py-2 rounded-full">
@@ -88,6 +95,7 @@ const Sponsers = () => {
             src="/sections/sponser/datacamp.webp"
             height={350}
             width={350}
+            className='max-h-40 object-contain'
             alt="Universe23"
           />
           <Button className="bg-[#CD7F32] text-black hover:bg-[#CD7F32] hover:text-white px-4 py-2 rounded-full">
@@ -99,6 +107,7 @@ const Sponsers = () => {
             src="/sections/sponser/universe.webp"
             height={350}
             width={350}
+            className='max-h-40 object-contain'
             alt="Universe23"
           />
           <Button className="bg-[#CD7F32] text-black hover:bg-[#CD7F32] hover:text-white px-4 py-2 rounded-full">
@@ -110,6 +119,7 @@ const Sponsers = () => {
             src="/sections/sponser/datacamp.webp"
             height={350}
             width={350}
+            className='max-h-40 object-contain'
             alt="Universe23"
           />
           <Button className="bg-[#CD7F32] text-black hover:bg-[#CD7F32] hover:text-white px-4 py-2 rounded-full">
@@ -121,6 +131,7 @@ const Sponsers = () => {
             src="/sections/sponser/universe.webp"
             height={350}
             width={350}
+            className='max-h-40 object-contain'
             alt="Universe23"
           />
           <Button className="bg-[#CD7F32] text-black hover:bg-[#CD7F32] hover:text-white px-4 py-2 rounded-full">
@@ -132,6 +143,7 @@ const Sponsers = () => {
             src="/sections/sponser/datacamp.webp"
             height={350}
             width={350}
+            className='max-h-40 object-contain'
             alt="Universe23"
           />
           <Button className="bg-[#CD7F32] text-black hover:bg-[#CD7F32] hover:text-white px-4 py-2 rounded-full">
