@@ -5,6 +5,7 @@ import tegathonLogo from '/public/sections/hero/logo.webp';
 import lines from '@/public/sections/hero/lines.svg';
 import astro from '@/public/sections/hero/astro.webp';
 
+import Link from 'next/link';
 import Image from 'next/image';
 
 const Hero = () => {
@@ -34,15 +35,17 @@ const Hero = () => {
                 can learn, compete, and make new friends. Don't miss out!
               </p>
               <div className="flex gap-6 items-center w-full justify-center md:justify-start">
-                <button className="bg-[#FDD200] text-[#333333] text-base md:p-5 sm:px-2 px-4 py-4 font-bold sm:rounded-3xl rounded-2xl">
-                  Register Now
-                </button>
-                <a
+                <Link href={'https://linktr.ee/tegathon2.0'} target="blank">
+                  <button className="bg-[#FDD200] text-[#333333] text-base md:p-5 sm:px-2 px-4 py-4 font-bold sm:rounded-3xl rounded-2xl">
+                    Register Now
+                  </button>
+                </Link>
+                <Link
                   href="/codeofconduct"
                   className="border border-[#FDD200] text-[#FDD200] text-base md:p-5 sm:px-2 px-4 py-4 font-bold sm:rounded-3xl rounded-2xl"
                 >
                   Code of Conduct
-                </a>
+                </Link>
               </div>
             </div>
           </div>
