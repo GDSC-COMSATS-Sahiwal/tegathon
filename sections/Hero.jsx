@@ -1,6 +1,6 @@
 'use client';
 
-import HeroTimer from '@/components/Clock';
+import EventTimer from '@/components/EventTimer';
 import tegathonLogo from '/public/sections/hero/logo.webp';
 import lines from '@/public/sections/hero/lines.svg';
 import astro from '@/public/sections/hero/astro.webp';
@@ -9,8 +9,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 const Hero = () => {
-  const seconds = 86300;
-  const timeStamp = new Date(Date.now() + seconds * 1000);
+  const eventDate = '2023-12-18T09:00:00';
   return (
     // Hero Section
     <section id="home" className=" relative ">
@@ -68,7 +67,7 @@ const Hero = () => {
               className="absolute right-0 bottom-0"
             />
             <div className="glass-container py-2 px-6 rounded-3xl text-center relative md:-mb-24 md:-mr-10 text-[#FDD200] font-bold">
-              <HeroTimer expiryTimestamp={timeStamp} />
+              <EventTimer eventDate={eventDate} />
             </div>
           </div>
         </div>
