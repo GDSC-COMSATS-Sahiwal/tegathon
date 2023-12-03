@@ -56,10 +56,10 @@ const Team = () => {
                   className="rounded-3xl border border-[#FDD200] h-[280px] w-auto object-cover object-top"
                 />
                 <div className="flex flex-col gap-0">
-                  <p className="md:text-4xl text-3xl font-bold sm:font-black text-[#FDD200]">
+                  <p className="md:text-[40px] text-3xl font-bold sm:font-black text-[#FDD200]">
                     {member.name.split(' ')[0]}
                   </p>
-                  <p className="md:text-4xl text-3xl font-bold sm:font-black text-[#FDD200]">
+                  <p className="md:text-[40px] text-3xl font-bold sm:font-black text-[#FDD200]">
                     {member.name.split(' ')[1]}
                   </p>
                 </div>
