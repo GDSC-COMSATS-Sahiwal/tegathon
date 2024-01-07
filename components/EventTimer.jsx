@@ -35,24 +35,24 @@ const EventTimer = ({ eventDate }) => {
 
   return (
     <div>
-      <div className="flex font-bold text-3xl md:text-4xl gap-4 ">
+      <div className="flex font-bold text-3xl md:text-4xl gap-6 ">
         <div className="flex flex-col items-center justify-center md:w-16">
-          <h3>{days ? String(days).padStart(2, '0') : '00'}</h3>
+          <h3>{days ? String(days).padStart(2, '0') : 'To'}</h3>
           <p className="text-xs -mt-1">Days</p>
         </div>
-        <p>:</p>
+        {/* <p>:</p> */}
         <div className="flex flex-col items-center justify-center md:w-16">
-          <h3>{hours ? String(hours).padStart(2, '0') : '00'}</h3>
+          <h3>{hours ? String(hours).padStart(2, '0') : 'be'}</h3>
           <p className="text-xs -mt-1">Hours</p>
         </div>
-        <p>:</p>
+        {/* <p>:</p> */}
         <div className="flex flex-col items-center justify-center md:w-16">
-          <h3>{minutes ? String(minutes).padStart(2, '0') : '00'}</h3>
+          <h3>{minutes ? String(minutes).padStart(2, '0') : 'deci'}</h3>
           <p className="text-xs -mt-1">Minutes</p>
         </div>
-        <p>:</p>
+        {/* <p>:</p> */}
         <div className="flex flex-col items-center justify-center md:w-16">
-          <h3>{seconds ? String(seconds).padStart(2, '0') : '00'}</h3>
+          <h3>{seconds ? String(seconds).padStart(2, '0') : 'ded'}</h3>
           <p className="text-xs -mt-1">Seconds</p>
         </div>
       </div>
