@@ -9,7 +9,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 const Hero = () => {
-  const eventDate = '2023-12-18T09:00:00';
+  const eventDate = '2024-05-14T09:00:00';
   return (
     // Hero Section
     <section id="home" className=" relative ">
