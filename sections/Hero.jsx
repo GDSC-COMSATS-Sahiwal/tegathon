@@ -31,7 +31,7 @@ const Hero = () => {
             <div className="md:space-y-12 space-y-4 md:px-10 ">
               <p className="text-white text-center md:text-left md:text-lg text-sm leading-relaxed">
                 At Tegathon, we're all about having a blast with technology,
-                computer coding, and video games. It's a 3-day event where you
+                computer coding, and video games. It's a 2-day event where you
                 can learn, compete, and make new friends. Don't miss out!
               </p>
               <div className="flex gap-6 items-center w-full justify-center md:justify-start">
@@ -76,7 +76,7 @@ const Hero = () => {
       {/* news line animation  */}
       <div className="absolute bottom-0 right-0 py-3 md:py-4 w-full overflow-hidden bg-gradient-to-r from-yellow-500 via-yellow-600 to-red-600">
         <p className="text-lg md:text-xl  text-black font-normal scrolling-text whitespace-nowrap relative z-[2]">
-          Tegathon is a unique, three-day event that brings together the worlds
+          Tegathon is a unique, two-days event that brings together the worlds
           of technology, gaming, and coding in an exhilarating fusion of
           innovation and fun. We've coined the term "Tegathon" by combining "Te"
           for Tech, "Ga" for Gaming, and "Thon" for Marathon, signifying our
