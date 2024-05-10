@@ -175,7 +175,7 @@ export const faqs = [
   {
     summary: 'What is Tegathon?',
     details:
-      'Tegathon is a 3-day tech extravaganza that brings together tech enthusiasts and developers. While it is not a traditional hackathon, it features three exciting segments: open source contributions on the first day, a coding competition on the second day, and a thrilling gaming event on the third day.',
+      'Tegathon is a 2-day tech extravaganza that brings together tech enthusiasts and developers. While it is not a traditional hackathon, it features three exciting segments: open source contributions on the first day, a coding competition and a thrilling gaming event on the second day.',
   },
   {
     summary: 'Is Tegathon open to anyone?',
@@ -189,15 +189,14 @@ export const faqs = [
       'On the first day of Tegathon, participants engage in open source contributions. You can work on existing open source projects, collaborate with others, or even start your own project. It is a day dedicated to making meaningful contributions to the open source community.',
   },
   {
-    summary: 'Tell me more about the coding competition on the second day.',
+    summary: 'Tell me more about the coding competition.',
     details:
-      "The second day of Tegathon hosts a coding competition where participants can put their problem-solving and coding skills to the test. It's a fun and challenging environment with exciting coding challenges. Prizes and awards await the top performers.",
+      "The Tegathon hosts a coding competition where participants can put their problem-solving and coding skills to the test. It's a fun and challenging environment with exciting coding challenges. Prizes and awards await the top performers.",
   },
   {
-    summary:
-      'Is the gaming event on the third day competitive or just for fun?',
+    summary: 'Is the gaming event competitive or just for fun?',
     details:
-      "The gaming event on the third day is all about having fun and building camaraderie. It's not a competitive gaming tournament, but rather a social event where you can relax, enjoy games, and unwind with fellow participants.",
+      "The gaming event is all about having fun and building camaraderie. It's not a competitive gaming tournament, but rather a social event where you can relax, enjoy games, and unwind with fellow participants.",
   },
   {
     summary: 'Is Tegathon free to attend?',
