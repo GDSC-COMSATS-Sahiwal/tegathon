@@ -60,10 +60,7 @@ const Team = () => {
                     {member.name.split(' ')[0]}
                   </p>
                   <p className="md:text-[40px] text-3xl font-bold sm:font-black text-[#FDD200]">
-                    {member.name.split(' ')[1]}
-                  </p>
-                  <p className="md:text-[40px] text-3xl font-bold sm:font-black text-[#FDD200]">
-                    {member.name.split(' ')[2]}
+                    {member.name.split(' ')[(1, 3)]}
                   </p>
                 </div>
                 <p className="text-white">{member.description}</p>
