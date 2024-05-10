@@ -20,7 +20,7 @@ export const teamMembers = [
     imageUrl: '/sections/team/members/ahsan.webp',
   },
   {
-    name: 'Qurrat Ul Ain',
+    name: 'Qurrat Ul-Ain',
     description: 'Creative Female Lead',
     imageUrl: '/sections/team/members/ainy.webp',
   },
