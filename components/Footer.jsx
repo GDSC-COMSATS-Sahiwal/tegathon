@@ -1,11 +1,11 @@
-import FooterLogo from "../public/sections/footer/footer-logo.webp";
-import Image from "next/image";
-import Link from "next/link";
-import { FiLinkedin, FiInstagram } from "react-icons/fi";
-import { FaWhatsapp } from "react-icons/fa";
+import FooterLogo from '../public/sections/footer/footer-logo.png';
+import Image from 'next/image';
+import Link from 'next/link';
+import { FiLinkedin, FiInstagram } from 'react-icons/fi';
+import { FaWhatsapp } from 'react-icons/fa';
 
 // import { RiTwitterXLine } from "react-icons/ri";
-import { ImHeart } from "react-icons/im";
+import { ImHeart } from 'react-icons/im';
 
 const Footer = () => {
   return (
@@ -54,11 +54,11 @@ const Footer = () => {
             {/* Copyright */}
             <div>
               <p>
-                Made with{" "}
+                Made with{' '}
                 <span className=" inline-flex text-red-500">
                   <ImHeart />
-                </span>{" "}
-                for Tegathon. <br /> &copy; 2023 All rights reserved.
+                </span>{' '}
+                for Tegathon. <br /> &copy; 2024 All rights reserved.
               </p>
             </div>
           </div>

@@ -1,7 +1,7 @@
 'use client';
 
 import EventTimer from '@/components/EventTimer';
-import tegathonLogo from '/public/sections/hero/logo.webp';
+import tegathonLogo from '/public/sections/hero/logo.png';
 import lines from '@/public/sections/hero/lines.svg';
 import astro from '@/public/sections/hero/astro.webp';
 
