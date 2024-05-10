@@ -14,21 +14,15 @@ export const teamMembers = [
     description: 'GitHub Campus Expert',
     imageUrl: '/sections/team/members/raheem.webp',
   },
-
   {
     name: 'Ahsan Raza',
     description: 'Web Dev Lead',
     imageUrl: '/sections/team/members/ahsan.webp',
   },
   {
-    name: 'Daniyal Ahmad',
-    description: 'Content Writing Lead',
-    imageUrl: '/sections/team/members/daniyal.webp',
-  },
-  {
-    name: 'Muhammad Abdullah',
-    description: 'Graphics Team Lead',
-    imageUrl: '/sections/team/members/abdullah.webp',
+    name: 'Qurrat Ul Ain',
+    description: 'Creative Female Lead',
+    imageUrl: '/sections/team/members/ainy.webp',
   },
   {
     name: 'Muhammad Ahmad',
@@ -36,9 +30,9 @@ export const teamMembers = [
     imageUrl: '/sections/team/members/ahmad.webp',
   },
   {
-    name: 'Amna Imran Ghani',
-    description: 'Female Lead for Creative Team',
-    imageUrl: '/sections/team/members/amna.webp',
+    name: 'Abdullah Ramay',
+    description: 'Graphics Team Lead',
+    imageUrl: '/sections/team/members/abdullah.webp',
   },
   {
     name: 'Muhammad Talha',
