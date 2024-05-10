@@ -50,8 +50,8 @@ const EventTimer = ({ eventDate }) => {
           <h3>{minutes ? String(minutes).padStart(2, '0') : '00'}</h3>
           <p className="text-xs -mt-1">Minutes</p>
         </div>
-        <p>:</p>
-        <div className="flex flex-col items-center justify-center md:w-16">
+        <p className="hidden sm:block">:</p>
+        <div className="hidden sm:flex flex-col items-center justify-center md:w-16 ">
           <h3>{seconds ? String(seconds).padStart(2, '0') : '00'}</h3>
           <p className="text-xs -mt-1">Seconds</p>
         </div>
