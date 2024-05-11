@@ -175,18 +175,17 @@ export const faqs = [
   {
     summary: 'What is Tegathon?',
     details:
-      'Tegathon is a 2-day tech extravaganza that brings together tech enthusiasts and developers. While it is not a traditional hackathon, it features three exciting segments: open source contributions on the first day, a coding competition and a thrilling gaming event on the second day.',
+      'Tegathon, a 2-day tech event that promises an exhilarating experience. It combines the worlds of technology, gaming, and coding in a unique fusion of innovation and fun. The event features three main segments: Tech Mehfil Day, Coding Mukabla, and Gaming Takra.',
   },
   {
     summary: 'Is Tegathon open to anyone?',
     details:
-      'Yes, Tegathon is open to all tech enthusiasts, college students, and developers who want to participate in a fun and educational tech event.',
+      'Tegathon is open to all COMSATS Sahiwal students, regardless of your major or experience level.',
   },
   {
-    summary:
-      'What happens on the first day of Tegathon is open source segment?',
+    summary: 'What happens on the first day?',
     details:
-      'On the first day of Tegathon, participants engage in open source contributions. You can work on existing open source projects, collaborate with others, or even start your own project. It is a day dedicated to making meaningful contributions to the open source community.',
+      'Day 1 sets the stage with Tech Mehfil: Immerse yourself in a day of learning and networking with tech professionals and alumini.',
   },
   {
     summary: 'Tell me more about the coding competition.',
@@ -212,7 +211,7 @@ export const faqs = [
   {
     summary: 'Can I participate in multiple segments of Tegathon?',
     details:
-      "Absolutely! You're welcome to participate in multiple segments of Tegathon. Whether you want to contribute to open source, showcase your coding skills, or enjoy the gaming event, you have the flexibility to engage in as many activities as you like.",
+      "No, unfortunately, participation in multiple segments won't be possible as the coding and gaming competitions will be happening simultaneously. Each segment requires full attention and participation, so participants will need to choose one segment to focus on during the event.",
   },
   {
     summary: 'How can I stay updated on Tegathon news and announcements?',
