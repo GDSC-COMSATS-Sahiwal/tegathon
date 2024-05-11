@@ -19,12 +19,12 @@ const About = () => {
         <div className="p-2 xl:padding ">
           <h1 className="section-title">What is Tegathon?</h1>
           <p className="text-lg sm:text-2xl font-normal text-center ">
-            Tegathon is a unique, three-day event that brings together the
-            worlds of technology, gaming, and coding in an exhilarating fusion
-            of innovation and fun. We&apos;ve coined the term
-            &quot;Tegathon&quot; by combining &quot;Te&quot; form Tech,
-            &quot;Ga&quot; form Gaming, and &quot;Thon&quot; form Marathon,
-            signifying our commitment to marathon-like endurance and excitement.
+            Tegathon is a unique, two-day event that brings together the worlds
+            of technology, gaming, and coding in an exhilarating fusion of
+            innovation and fun. We&apos;ve coined the term &quot;Tegathon&quot;
+            by combining &quot;Te&quot; form Tech, &quot;Ga&quot; form Gaming,
+            and &quot;Thon&quot; form Marathon, signifying our commitment to
+            marathon-like endurance and excitement.
           </p>
         </div>
         <div className="flex xl:padding justify-evenly flex-col sm:flex-row items-center">
@@ -58,7 +58,7 @@ const About = () => {
               3
             </h1>
             <h3 className="text-2xl font-medium">
-              Tekken 7 Gaming Competition
+              Tekken 8 Gaming Competition
             </h3>
             <p className="text-2xl font-normal"></p>
           </div>
