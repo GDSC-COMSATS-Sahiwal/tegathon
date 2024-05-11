@@ -76,7 +76,7 @@ export const navLinks = [
 
 export const eventSchedule = [
   {
-    eventTitle: 'Open-Source Day',
+    eventTitle: 'Tech Mehfil',
     eventDate: '',
     eventDetails: [
       {
@@ -106,7 +106,7 @@ export const eventSchedule = [
     ],
   },
   {
-    eventTitle: 'Coding Competition',
+    eventTitle: 'Coding Mukabla',
     eventDate: '',
     eventDetails: [
       {
@@ -136,7 +136,7 @@ export const eventSchedule = [
     ],
   },
   {
-    eventTitle: 'Tekken 7 Gaming Competition',
+    eventTitle: 'Tekken 8 Gaming Takra',
     eventDate: '',
     eventDetails: [
       {
