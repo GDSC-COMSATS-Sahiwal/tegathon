@@ -31,12 +31,6 @@ export default function Home() {
         <Team />
       </section>
       <section
-        id="sponsers"
-        className="bg-cover bg-center bg-[url('../public/sections/sponser/bg.webp')] padding "
-      >
-        <Sponsers />
-      </section>
-      <section
         id="partners"
         className="bg-cover bg-center bg-[url('../public/sections/partner/bg.webp')] padding"
       >
