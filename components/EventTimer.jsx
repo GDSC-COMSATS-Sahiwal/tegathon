@@ -1,5 +1,4 @@
 'use client';
-
 import { useState, useEffect } from 'react';
 
 const EventTimer = ({ eventDate }) => {
@@ -18,10 +17,16 @@ const EventTimer = ({ eventDate }) => {
   };
 
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
+  const [eventEnded, setEventEnded] = useState(false);
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      setTimeLeft(calculateTimeLeft());
+      const timeLeft = calculateTimeLeft();
+      if (Object.keys(timeLeft).length === 0) {
+        setEventEnded(true);
+      } else {
+        setTimeLeft(timeLeft);
+      }
     }, 1000);
 
     return () => clearTimeout(timer);
@@ -35,27 +40,33 @@ const EventTimer = ({ eventDate }) => {
 
   return (
     <div>
-      <div className="flex font-bold text-3xl md:text-4xl gap-6 ">
-        <div className="flex flex-col items-center justify-center md:w-16">
-          <h3>{days ? String(days).padStart(2, '0') : '00'}</h3>
-          <p className="text-xs -mt-1">Days</p>
+      {eventEnded ? (
+        <h1 className="text-4xl font-bold text-center">
+          Let's Keep the Fun Going!
+        </h1>
+      ) : (
+        <div className="flex font-bold text-3xl md:text-4xl gap-6 ">
+          <div className="flex flex-col items-center justify-center md:w-16">
+            <h3>{days ? String(days).padStart(2, '0') : '00'}</h3>
+            <p className="text-xs -mt-1">Days</p>
+          </div>
+          <p>:</p>
+          <div className="flex flex-col items-center justify-center md:w-16">
+            <h3>{hours ? String(hours).padStart(2, '0') : '00'}</h3>
+            <p className="text-xs -mt-1">Hours</p>
+          </div>
+          <p>:</p>
+          <div className="flex flex-col items-center justify-center md:w-16">
+            <h3>{minutes ? String(minutes).padStart(2, '0') : '00'}</h3>
+            <p className="text-xs -mt-1">Minutes</p>
+          </div>
+          <p className="hidden sm:block">:</p>
+          <div className="hidden sm:flex flex-col items-center justify-center md:w-16 ">
+            <h3>{seconds ? String(seconds).padStart(2, '0') : '00'}</h3>
+            <p className="text-xs -mt-1">Seconds</p>
+          </div>
         </div>
-        <p>:</p>
-        <div className="flex flex-col items-center justify-center md:w-16">
-          <h3>{hours ? String(hours).padStart(2, '0') : '00'}</h3>
-          <p className="text-xs -mt-1">Hours</p>
-        </div>
-        <p>:</p>
-        <div className="flex flex-col items-center justify-center md:w-16">
-          <h3>{minutes ? String(minutes).padStart(2, '0') : '00'}</h3>
-          <p className="text-xs -mt-1">Minutes</p>
-        </div>
-        <p className="hidden sm:block">:</p>
-        <div className="hidden sm:flex flex-col items-center justify-center md:w-16 ">
-          <h3>{seconds ? String(seconds).padStart(2, '0') : '00'}</h3>
-          <p className="text-xs -mt-1">Seconds</p>
-        </div>
-      </div>
+      )}
     </div>
   );
 };
