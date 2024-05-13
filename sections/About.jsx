@@ -35,7 +35,7 @@ const About = () => {
             >
               1
             </h1>
-            <h3 className="text-2xl font-medium">Open-source Day</h3>
+            <h3 className="text-2xl font-medium">Tech Mehfil</h3>
             <p className="text-2xl font-normal"></p>
           </div>
           <hr className="border border-white w-24" />
@@ -46,7 +46,7 @@ const About = () => {
             >
               2
             </h1>
-            <h3 className="text-2xl font-medium">Coding Competition</h3>
+            <h3 className="text-2xl font-medium">Coding Mukabla</h3>
             <p className="text-2xl font-normal"></p>
           </div>
           <hr className="border border-white w-24" />
@@ -57,9 +57,7 @@ const About = () => {
             >
               3
             </h1>
-            <h3 className="text-2xl font-medium">
-              Tekken 8 Gaming Competition
-            </h3>
+            <h3 className="text-2xl font-medium">Tekken 8 Gaming Takra</h3>
             <p className="text-2xl font-normal"></p>
           </div>
         </div>
