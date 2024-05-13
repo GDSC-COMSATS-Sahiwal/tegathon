@@ -26,7 +26,7 @@ export const teamMembers = [
   },
   {
     name: 'Muhammad Ahmad',
-    description: 'Management and PR Team Lead',
+    description: 'Tegathon Lead',
     imageUrl: '/sections/team/members/ahmad.webp',
   },
   {
@@ -85,23 +85,36 @@ export const eventSchedule = [
       },
       {
         startsAt: '11:30 AM',
-        sessionTitle: 'Open Source 101 Session',
+        sessionTitle: 'Personal Growth and Tech Communities ',
       },
       {
-        startsAt: '12:30 PM',
-        sessionTitle: 'Q&A Session',
+        startsAt: '11:50 AM',
+        sessionTitle: 'The Power of GitHub in education',
       },
       {
-        startsAt: '12:45 PM',
-        sessionTitle: 'Networking and Refreshments',
+        startsAt: '12:10 PM',
+        sessionTitle: 'Fun activity #01',
+      },
+      {
+        startsAt: '12:20 PM',
+        sessionTitle: 'Micro SaaS Ideas and Roadmap',
+      },
+      {
+        startsAt: '12:40 PM',
+        sessionTitle: 'Investing your 4 years wisely for career advancement',
       },
       {
         startsAt: '01:00 PM',
-        sessionTitle: 'Lightning Talks by Open-Source Contributors',
+        sessionTitle: 'Fun activity #02',
+      },
+      {
+        startsAt: '01:10 PM',
+        sessionTitle:
+          "Large Language Models and it's impact on academia and Industry",
       },
       {
         startsAt: '01:30 PM',
-        sessionTitle: 'Closing Remarks for the Day',
+        sessionTitle: 'Closing Remarks',
       },
     ],
   },
